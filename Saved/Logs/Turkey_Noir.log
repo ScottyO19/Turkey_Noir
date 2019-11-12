@@ -632,3 +632,944 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.12-21.54.28:222][  1]LogAssetRegistry: Asset discovery search completed in 9.8210 seconds
 [2019.11.12-21.54.28:226][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
 [2019.11.12-21.54.28:226][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2019.11.12-21.54.53:882][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-21.55.16:642][187]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2019.11.12-21.55.17:891][245]Cmd: DELETE
+[2019.11.12-21.55.17:892][245]Cmd: ACTOR DELETE
+[2019.11.12-21.55.17:917][245]LogEditorActor: Deleted Actor: TextRenderActor
+[2019.11.12-21.55.17:986][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.11.12-21.55.17:987][245]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2019.11.12-21.55.19:289][325]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2019.11.12-21.55.19:789][354]Cmd: DELETE
+[2019.11.12-21.55.19:789][354]Cmd: ACTOR DELETE
+[2019.11.12-21.55.19:792][354]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.55.19:847][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.11.12-21.55.19:847][354]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2019.11.12-21.55.20:904][421]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_34)
+[2019.11.12-21.55.21:021][428]Cmd: DELETE
+[2019.11.12-21.55.21:021][428]Cmd: ACTOR DELETE
+[2019.11.12-21.55.21:023][428]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.55.21:049][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.11.12-21.55.21:050][428]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.11.12-21.55.23:219][560]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_25)
+[2019.11.12-21.55.23:360][566]Cmd: DELETE
+[2019.11.12-21.55.23:360][566]Cmd: ACTOR DELETE
+[2019.11.12-21.55.23:363][566]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.55.23:417][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.11.12-21.55.23:417][566]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2019.11.12-21.55.24:718][647]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_17)
+[2019.11.12-21.55.24:885][657]Cmd: DELETE
+[2019.11.12-21.55.24:885][657]Cmd: ACTOR DELETE
+[2019.11.12-21.55.24:888][657]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.55.24:939][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.11.12-21.55.24:939][657]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2019.11.12-21.55.27:149][793]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2019.11.12-21.56.57:350][544]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2019.11.12-21.56.57:439][546]Cmd: DELETE
+[2019.11.12-21.56.57:439][546]Cmd: ACTOR DELETE
+[2019.11.12-21.56.57:444][546]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.56.57:473][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.11.12-21.56.57:474][546]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA83986E6-49FB-B105-CE6C-EB99AF6DE5C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=6bc5f8fe4fc7513373c474b1c2a22352%7C8878cbd6ebd44743b5ec66f2401b973d%7C77c2acd1-c1e5-47f2-9d94-e1c3464c3790&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x266dae4bf70 [can pipeline])
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.210.68.80) port 443 (#0))
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.11.12-21.56.57:795][583]LogHttp: Warning: 00000266975BE340: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.11.12-21.56.57:796][583]LogHttp: Warning: 00000266975BE340: libcurl info message cache 7 (Closing connection 0)
+[2019.11.12-21.56.57:804][584]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA83986E6-49FB-B105-CE6C-EB99AF6DE5C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=6bc5f8fe4fc7513373c474b1c2a22352%7C8878cbd6ebd44743b5ec66f2401b973d%7C77c2acd1-c1e5-47f2-9d94-e1c3464c3790&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.11.12-21.56.58:616][679]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_12)
+[2019.11.12-21.56.58:720][686]Cmd: DELETE
+[2019.11.12-21.56.58:720][686]Cmd: ACTOR DELETE
+[2019.11.12-21.56.58:722][686]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.56.58:744][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.11.12-21.56.58:745][686]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.11.12-21.57.05:280][460]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_31)
+[2019.11.12-21.57.06:911][652]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (GlobalPostProcessSettings)
+[2019.11.12-21.57.13:053][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-21.57.15:325][648]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_31)
+[2019.11.12-21.57.17:424][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-21.57.20:116][179]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.11.12-21.57.32:633][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-21.57.46:333][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-21.58.22:653][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-21.58.34:963][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-21.58.56:417][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-21.59.12:266][507]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2019.11.12-21.59.12:373][516]Cmd: DELETE
+[2019.11.12-21.59.12:373][516]Cmd: ACTOR DELETE
+[2019.11.12-21.59.12:374][516]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.59.12:397][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.11.12-21.59.12:398][516]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.11.12-21.59.13:380][634]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_27)
+[2019.11.12-21.59.13:423][636]Cmd: DELETE
+[2019.11.12-21.59.13:423][636]Cmd: ACTOR DELETE
+[2019.11.12-21.59.13:424][636]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.59.13:447][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.11.12-21.59.13:448][636]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.11.12-21.59.14:555][769]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_28)
+[2019.11.12-21.59.14:617][773]Cmd: DELETE
+[2019.11.12-21.59.14:617][773]Cmd: ACTOR DELETE
+[2019.11.12-21.59.14:618][773]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.59.14:640][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.11.12-21.59.14:640][773]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.11.12-21.59.18:096][180]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_32)
+[2019.11.12-21.59.18:169][185]Cmd: DELETE
+[2019.11.12-21.59.18:169][185]Cmd: ACTOR DELETE
+[2019.11.12-21.59.18:170][185]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.59.18:192][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.11.12-21.59.18:192][185]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.11.12-21.59.19:257][313]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_31)
+[2019.11.12-21.59.19:301][315]Cmd: DELETE
+[2019.11.12-21.59.19:301][315]Cmd: ACTOR DELETE
+[2019.11.12-21.59.19:303][315]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.59.19:326][315]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.12-21.59.19:326][315]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.11.12-21.59.20:475][453]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_30)
+[2019.11.12-21.59.20:563][460]Cmd: DELETE
+[2019.11.12-21.59.20:563][460]Cmd: ACTOR DELETE
+[2019.11.12-21.59.20:565][460]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.59.20:589][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.11.12-21.59.20:589][460]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.11.12-21.59.21:654][588]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_29)
+[2019.11.12-21.59.21:731][594]Cmd: DELETE
+[2019.11.12-21.59.21:731][594]Cmd: ACTOR DELETE
+[2019.11.12-21.59.21:733][594]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.11.12-21.59.21:758][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.11.12-21.59.21:758][594]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.11.12-21.59.25:616][ 49]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2019.11.12-21.59.59:134][908]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.11.12-22.00.01:824][218]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.00.03:416][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.11.12-22.00.03:432][396]LogSlate: Took 0.000990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.12-22.00.03:438][396]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.00.03:485][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.11.12-22.00.03:658][396]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerExampleMapF026BD5448364F690200DE95E62972F0.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2019.11.12-22.00.03:673][396]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.212
+[2019.11.12-22.00.17:162][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.00.23:460][715]LogSlate: Took 0.000928 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.12-22.00.26:210][ 13]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.11.12-22.00.59:995][733]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.12-22.01.07:309][586]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Widgets/Door1.Door1
+[2019.11.12-22.01.07:616][586]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.11.12-22.01.08:553][586]LogRenderer: Reallocating scene render targets to support 964x684 Format 10 NumSamples 1 (Frame:1).
+[2019.11.12-22.01.19:912][637]LogSlate: Took 0.001070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.12-22.01.21:354][761]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-22.01.24:175][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-22.01.29:759][526]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.01.34:371][958]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.01.41:549][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.01.56:297][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.02.03:791][556]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-22.02.22:044][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.02.30:666][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.02.35:590][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.02.44:939][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.02.45:063][218]BlueprintLog: New page: Compile Door1
+[2019.11.12-22.02.45:266][218]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.11.12-22.02.48:380][477]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.11.12-22.02.48:435][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Door1" FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset" SILENT=true
+[2019.11.12-22.02.48:452][477]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Door10119F6D34217684403F923B349DD033C.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset'
+[2019.11.12-22.03.16:749][701]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.03.29:528][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.03.43:238][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.03.52:356][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.04.01:119][558]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.04.11:917][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.04.12:048][625]BlueprintLog: New page: Compile Door1
+[2019.11.12-22.04.12:263][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.11.12-22.04.15:744][934]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.11.12-22.04.15:809][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.11.12-22.04.15:958][934]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerExampleMap0CB92068486451E1BE1D1DA9255F1E58.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2019.11.12-22.04.15:968][934]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.192
+[2019.11.12-22.04.16:003][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Door1" FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset" SILENT=true
+[2019.11.12-22.04.16:028][934]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Door1CD6BC6F34A4CEA857B0E1091DA9ED6A1.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset'
+[2019.11.12-22.04.31:356][692]LogEditorViewport: Clicking on Actor (LMB): Door1_C (Door1)
+[2019.11.12-22.04.36:315][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.04.40:134][704]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.11.12-22.04.56:584][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.05.18:248][211]LogEditorViewport: Clicking on Actor (LMB): Door1_C (Door1)
+[2019.11.12-22.05.27:729][313]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2019.11.12-22.05.32:055][817]LogEditorViewport: Clicking on Actor (LMB): Door1_C (Door1)
+[2019.11.12-22.06.09:356][209]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.06.10:784][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.11.12-22.06.10:796][369]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.06.10:841][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.11.12-22.06.10:996][369]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerExampleMap31BDA48E4E07111CA5D145A166BB0B98.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2019.11.12-22.06.11:007][369]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.195
+[2019.11.12-22.06.12:197][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.06.12:331][516]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-22.06.12:339][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.12:340][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-22.06.12:345][516]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 12, 2019, 12:06:12 PM)
+[2019.11.12-22.06.12:349][516]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.12-22.06.12:351][516]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2019.11.12-22.06.12:357][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006318s)
+[2019.11.12-22.06.12:359][516]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.11.12-22.06.12:360][516]LogPlayLevel: PIE: World Init took: (0.002570s)
+[2019.11.12-22.06.12:360][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009180s)
+[2019.11.12-22.06.12:393][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.11.12-22.06.12:410][516]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-22.06.12:439][516]LogInit: FAudioDevice initialized.
+[2019.11.12-22.06.12:459][516]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.12-22.06.12:470][516]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2019.11.12-17.06.12
+[2019.11.12-22.06.12:475][516]LogWorld: Bringing up level for play took: 0.006063
+[2019.11.12-22.06.12:476][516]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2019.11.12-22.06.12:518][516]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.11.12-22.06.12:523][516]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.03
+[2019.11.12-22.06.12:523][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.20:148][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.20:149][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-22.06.20:149][382]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2019.11.12-22.06.20:149][382]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.06.20:161][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-22.06.20:161][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.20:204][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-22.06.20:228][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2019.11.12-22.06.20:281][384]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.11.12-22.06.24:623][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.06.24:756][915]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-22.06.24:759][915]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.24:759][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-22.06.24:759][915]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 12, 2019, 12:06:24 PM)
+[2019.11.12-22.06.24:760][915]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2019.11.12-22.06.24:763][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003669s)
+[2019.11.12-22.06.24:764][915]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.11.12-22.06.24:765][915]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2019.11.12-22.06.24:765][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005194s)
+[2019.11.12-22.06.24:805][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.11.12-22.06.24:828][915]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-22.06.24:854][915]LogInit: FAudioDevice initialized.
+[2019.11.12-22.06.24:860][915]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.12-22.06.24:861][915]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2019.11.12-17.06.24
+[2019.11.12-22.06.24:861][915]LogWorld: Bringing up level for play took: 0.000712
+[2019.11.12-22.06.24:862][915]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2019.11.12-22.06.24:863][915]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.31
+[2019.11.12-22.06.24:863][915]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.27:612][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.27:612][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-22.06.27:612][231]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2019.11.12-22.06.27:612][231]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.06.27:625][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-22.06.27:626][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.27:664][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-22.06.27:668][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.12-22.06.27:714][236]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.11.12-22.06.32:327][782]LogEditorViewport: Clicking on Actor (LMB): Door1_C (Door1)
+[2019.11.12-22.06.39:411][623]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.06.40:636][755]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.11.12-22.06.40:647][755]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.06.40:696][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.11.12-22.06.40:894][755]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerExampleMap3EEF431245DE2A46417461B62FF84376.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2019.11.12-22.06.40:904][755]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.242
+[2019.11.12-22.06.42:045][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.06.42:178][884]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-22.06.42:182][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.42:182][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-22.06.42:182][884]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 12, 2019, 12:06:42 PM)
+[2019.11.12-22.06.42:182][884]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2019.11.12-22.06.42:186][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004263s)
+[2019.11.12-22.06.42:187][884]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.11.12-22.06.42:187][884]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2019.11.12-22.06.42:187][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005249s)
+[2019.11.12-22.06.42:223][884]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.11.12-22.06.42:233][884]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-22.06.42:259][884]LogInit: FAudioDevice initialized.
+[2019.11.12-22.06.42:270][884]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.12-22.06.42:272][884]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2019.11.12-17.06.42
+[2019.11.12-22.06.42:272][884]LogWorld: Bringing up level for play took: 0.000960
+[2019.11.12-22.06.42:272][884]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.11.12-22.06.42:274][884]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.279
+[2019.11.12-22.06.42:274][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.46:777][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.46:777][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-22.06.46:777][410]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2019.11.12-22.06.46:778][410]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.06.46:786][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-22.06.46:786][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.46:828][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-22.06.46:832][410]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.11.12-22.06.46:880][415]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.11.12-22.06.54:137][273]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.06.55:352][404]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.11.12-22.06.55:362][404]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.06.55:408][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.11.12-22.06.55:594][404]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerExampleMap5827221D4FED245A46B18A885E11F84D.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2019.11.12-22.06.55:603][404]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.226
+[2019.11.12-22.06.56:413][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.06.56:538][493]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-22.06.56:542][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.06.56:542][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-22.06.56:542][493]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 12, 2019, 12:06:56 PM)
+[2019.11.12-22.06.56:542][493]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2019.11.12-22.06.56:546][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003878s)
+[2019.11.12-22.06.56:547][493]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.11.12-22.06.56:547][493]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2019.11.12-22.06.56:547][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004923s)
+[2019.11.12-22.06.56:580][493]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.11.12-22.06.56:590][493]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-22.06.56:616][493]LogInit: FAudioDevice initialized.
+[2019.11.12-22.06.56:631][493]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.12-22.06.56:633][493]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2019.11.12-17.06.56
+[2019.11.12-22.06.56:633][493]LogWorld: Bringing up level for play took: 0.000753
+[2019.11.12-22.06.56:633][493]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.11.12-22.06.56:635][493]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.082
+[2019.11.12-22.06.56:635][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.07.02:620][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.07.02:620][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-22.07.02:620][195]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2019.11.12-22.07.02:620][195]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.07.02:627][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-22.07.02:627][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.11.12-22.07.02:670][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-22.07.02:674][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.11.12-22.07.02:721][200]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.12-22.07.09:934][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.09.12:670][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.09.45:880][915]BlueprintLog: New page: Compile Door1
+[2019.11.12-22.09.46:094][915]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2019.11.12-22.09.49:988][316]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.11.12-22.09.50:053][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.12-22.09.50:260][316]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerExampleMapDF391E484B688CC258406995C6F203DB.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2019.11.12-22.09.50:271][316]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.250
+[2019.11.12-22.09.50:304][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Door1" FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset" SILENT=true
+[2019.11.12-22.09.50:321][316]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Door1FE2D4C034A65F47AC253F7BF768360A5.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset'
+[2019.11.12-22.09.53:021][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.09.55:429][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.10.15:260][191]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2019.11.12-22.10.15:261][191]LogMetaData: Removing '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' ref from Metadata '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.PackageMetaData'
+[2019.11.12-22.10.15:261][191]LogMetaData: Removing '/Game/2DSideScrollerBP/Maps/Level1.SKEL_Level1_C' ref from Metadata '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.PackageMetaData'
+[2019.11.12-22.10.15:301][191]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Level1_BuiltData87E9C25C4C4BD1F8B59E59A645E7DBDD.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1_BuiltData.uasset'
+[2019.11.12-22.10.15:342][191]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.11.12-22.10.15:539][191]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Level10A920B42423D46027091318C2F40C718.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2019.11.12-22.10.15:549][191]LogFileHelpers: Saving map 'Level1' took 0.242
+[2019.11.12-22.10.15:864][191]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.12-22.10.15:900][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.11.12-22.10.15:945][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.11.12-22.10.15:977][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.11.12-22.10.21:034][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2019.11.12-22.10.21:123][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.11.12-22.10.21:135][716]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Level24E058BEC46CAE4CAED0B5FA21FF80544.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2019.11.12-22.10.21:138][716]LogFileHelpers: Saving map 'Level2' took 0.074
+[2019.11.12-22.10.37:626][554]BlueprintLog: New page: Compile Door1
+[2019.11.12-22.10.37:829][554]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.11.12-22.10.40:721][853]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2019.11.12-22.10.40:783][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.11.12-22.10.40:969][853]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Level1BCE0CBE34CA0A0E1D1F19BA49B7B7F40.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2019.11.12-22.10.40:978][853]LogFileHelpers: Saving map 'Level1' took 0.231
+[2019.11.12-22.10.40:992][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Door1" FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset" SILENT=true
+[2019.11.12-22.10.41:009][853]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Door12CF199F241D227250E75758791A1A2F5.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset'
+[2019.11.12-22.10.46:257][462]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level2.Level2
+[2019.11.12-22.10.46:295][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.11.12-22.10.46:297][462]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.10.46:297][462]LightingResults: New page: Lighting Build
+[2019.11.12-22.10.46:297][462]LoadErrors: New page: Loading map: Level2.umap
+[2019.11.12-22.10.46:298][462]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.10.46:298][462]MapCheck: New page: Map Check
+[2019.11.12-22.10.46:298][462]LightingResults: New page: Lighting Build
+[2019.11.12-22.10.46:334][462]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.11.12-22.10.46:335][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.10.46:335][462]LogAIModule: Creating AISystem for world Level2
+[2019.11.12-22.10.46:371][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.12-22.10.46:380][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.10.46:381][462]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.127ms to complete.
+[2019.11.12-22.10.46:382][462]LogFileHelpers: Loading map 'Level2' took 0.087
+[2019.11.12-22.10.48:458][693]LogAIModule: Creating AISystem for world Level1
+[2019.11.12-22.10.48:464][693]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level1.Level1
+[2019.11.12-22.10.48:499][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.11.12-22.10.48:500][693]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.10.48:500][693]LightingResults: New page: Lighting Build
+[2019.11.12-22.10.48:500][693]LoadErrors: New page: Loading map: Level1.umap
+[2019.11.12-22.10.48:500][693]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.10.48:501][693]MapCheck: New page: Map Check
+[2019.11.12-22.10.48:501][693]LightingResults: New page: Lighting Build
+[2019.11.12-22.10.48:535][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.11.12-22.10.48:539][693]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.10.48:576][693]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.11.12-22.10.48:581][693]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.10.48:582][693]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.198ms to complete.
+[2019.11.12-22.10.48:582][693]LogFileHelpers: Loading map 'Level1' took 0.083
+[2019.11.12-22.10.51:429][ 25]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.11.12-22.10.52:828][189]Cmd: EDIT COPY
+[2019.11.12-22.10.54:407][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.10.54:593][392]LogAIModule: Creating AISystem for world Level2
+[2019.11.12-22.10.54:596][392]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level2.Level2
+[2019.11.12-22.10.54:633][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.11.12-22.10.54:633][392]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.10.54:634][392]LightingResults: New page: Lighting Build
+[2019.11.12-22.10.54:634][392]LoadErrors: New page: Loading map: Level2.umap
+[2019.11.12-22.10.54:635][392]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.10.54:635][392]MapCheck: New page: Map Check
+[2019.11.12-22.10.54:635][392]LightingResults: New page: Lighting Build
+[2019.11.12-22.10.54:670][392]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.11.12-22.10.54:671][392]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.10.54:706][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.11.12-22.10.54:712][392]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.10.54:712][392]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.118ms to complete.
+[2019.11.12-22.10.54:712][392]LogFileHelpers: Loading map 'Level2' took 0.079
+[2019.11.12-22.10.55:697][495]LogEditorViewport: Clicking Background
+[2019.11.12-22.10.57:083][660]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.11.03:880][450]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.11.07:321][860]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.11.09:770][153]LogEditorViewport: Clicking Background
+[2019.11.12-22.11.11:188][322]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.11.12:430][464]LogEditorViewport: Clicking Background
+[2019.11.12-22.11.13:286][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.11.13:463][582]LogAIModule: Creating AISystem for world Level1
+[2019.11.12-22.11.13:468][582]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level1.Level1
+[2019.11.12-22.11.13:503][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.12-22.11.13:504][582]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.11.13:504][582]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.13:504][582]LoadErrors: New page: Loading map: Level1.umap
+[2019.11.12-22.11.13:504][582]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.11.13:505][582]MapCheck: New page: Map Check
+[2019.11.12-22.11.13:505][582]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.13:541][582]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.11.12-22.11.13:544][582]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.11.13:580][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2019.11.12-22.11.13:586][582]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.11.13:586][582]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.123ms to complete.
+[2019.11.12-22.11.13:586][582]LogFileHelpers: Loading map 'Level1' took 0.084
+[2019.11.12-22.11.14:463][669]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.11.12-22.11.17:394][ 17]Cmd: EDIT COPY
+[2019.11.12-22.11.19:608][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.11.19:776][293]LogAIModule: Creating AISystem for world Level2
+[2019.11.12-22.11.19:779][293]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level2.Level2
+[2019.11.12-22.11.19:814][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.11.12-22.11.19:814][293]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.11.19:815][293]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.19:815][293]LoadErrors: New page: Loading map: Level2.umap
+[2019.11.12-22.11.19:816][293]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.11.19:816][293]MapCheck: New page: Map Check
+[2019.11.12-22.11.19:816][293]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.19:853][293]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.12-22.11.19:853][293]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.11.19:892][293]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.11.12-22.11.19:898][293]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.11.19:898][293]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.117ms to complete.
+[2019.11.12-22.11.19:898][293]LogFileHelpers: Loading map 'Level2' took 0.085
+[2019.11.12-22.11.20:942][396]LogEditorViewport: Clicking Background
+[2019.11.12-22.11.21:625][478]Cmd: EDIT PASTE
+[2019.11.12-22.11.28:800][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.11.28:978][339]LogAIModule: Creating AISystem for world Level1
+[2019.11.12-22.11.28:983][339]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level1.Level1
+[2019.11.12-22.11.29:019][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.12-22.11.31:396][339]LogSlate: Window 'Save Content' being destroyed
+[2019.11.12-22.11.31:441][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.11.12-22.11.31:621][339]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Level24E7D25004BF587A5955E588CAF07EF23.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2019.11.12-22.11.31:629][339]LogFileHelpers: Saving map 'Level2' took 0.222
+[2019.11.12-22.11.31:630][339]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.11.31:630][339]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.31:630][339]LoadErrors: New page: Loading map: Level1.umap
+[2019.11.12-22.11.31:631][339]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.11.31:631][339]MapCheck: New page: Map Check
+[2019.11.12-22.11.31:631][339]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.31:669][339]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.11.12-22.11.31:674][339]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.11.31:708][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.11.12-22.11.31:714][339]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.11.31:715][339]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.214ms to complete.
+[2019.11.12-22.11.31:715][339]LogFileHelpers: Loading map 'Level1' took 0.086
+[2019.11.12-22.11.31:742][339]LogAIModule: Creating AISystem for world Level2
+[2019.11.12-22.11.36:137][846]Cmd: EDIT COPY
+[2019.11.12-22.11.37:333][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.11.37:470][999]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level2.Level2
+[2019.11.12-22.11.37:508][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.11.12-22.11.37:509][999]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.11.37:509][999]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.37:509][999]LoadErrors: New page: Loading map: Level2.umap
+[2019.11.12-22.11.37:510][999]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.11.37:510][999]MapCheck: New page: Map Check
+[2019.11.12-22.11.37:510][999]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.37:543][999]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.11.12-22.11.37:545][999]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.11.37:582][999]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.11.12-22.11.37:590][999]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.11.37:591][999]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.202ms to complete.
+[2019.11.12-22.11.37:592][999]LogFileHelpers: Loading map 'Level2' took 0.084
+[2019.11.12-22.11.39:636][241]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.11.12-22.11.40:726][368]Cmd: EDIT PASTE
+[2019.11.12-22.11.46:409][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.11.46:587][ 59]LogAIModule: Creating AISystem for world Level1
+[2019.11.12-22.11.46:592][ 59]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level1.Level1
+[2019.11.12-22.11.46:628][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.11.12-22.11.47:966][ 59]LogSlate: Window 'Save Content' being destroyed
+[2019.11.12-22.11.48:018][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.11.12-22.11.48:213][ 59]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Level213BE477E46AA36B27C870890E1C1B9A9.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2019.11.12-22.11.48:224][ 59]LogFileHelpers: Saving map 'Level2' took 0.247
+[2019.11.12-22.11.48:225][ 59]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.11.48:225][ 59]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.48:226][ 59]LoadErrors: New page: Loading map: Level1.umap
+[2019.11.12-22.11.48:227][ 59]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.11.48:227][ 59]MapCheck: New page: Map Check
+[2019.11.12-22.11.48:227][ 59]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.48:266][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.11.12-22.11.48:270][ 59]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.11.48:303][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.11.12-22.11.48:309][ 59]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.11.48:310][ 59]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.163ms to complete.
+[2019.11.12-22.11.48:310][ 59]LogFileHelpers: Loading map 'Level1' took 0.085
+[2019.11.12-22.11.48:346][ 59]LogAIModule: Creating AISystem for world Level2
+[2019.11.12-22.11.51:663][440]Cmd: EDIT COPY
+[2019.11.12-22.11.54:087][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.11.54:424][754]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level2.Level2
+[2019.11.12-22.11.54:458][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.11.12-22.11.54:459][754]Cmd: MAP LOAD FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-22.11.54:459][754]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.54:460][754]LoadErrors: New page: Loading map: Level2.umap
+[2019.11.12-22.11.54:460][754]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.11.54:461][754]MapCheck: New page: Map Check
+[2019.11.12-22.11.54:461][754]LightingResults: New page: Lighting Build
+[2019.11.12-22.11.54:497][754]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.11.12-22.11.54:499][754]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-22.11.54:533][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.11.12-22.11.54:542][754]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-22.11.54:542][754]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.13ms to complete.
+[2019.11.12-22.11.54:543][754]LogFileHelpers: Loading map 'Level2' took 0.085
+[2019.11.12-22.11.55:784][899]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.11.12-22.11.56:880][ 27]Cmd: EDIT PASTE
+[2019.11.12-22.12.05:745][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.12.31:062][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.Door1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:062][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:062][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.Door1_C' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:062][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.Door1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:062][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.Door1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:062][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.Door1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:062][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.Door1_C:Box' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.Door1_C:Cube' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.Door1_C:DefaultSceneRoot' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C:UserConstructionScript' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C:Box' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C:Cube' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C:DefaultSceneRoot' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C:ReceiveTick' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:063][ 67]LogMetaData: Removing '/Game/BluePrints/Door1.SKEL_Door1_C:ReceiveBeginPlay' ref from Metadata '/Game/Widgets/Door1.PackageMetaData'
+[2019.11.12-22.12.31:112][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Door1" FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/BluePrints/Door1.uasset" SILENT=true
+[2019.11.12-22.12.31:131][ 67]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Door1C242D55B460B9BE1EA823EACEE745C5F.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/BluePrints/Door1.uasset'
+[2019.11.12-22.12.31:139][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Door1" FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset" SILENT=true
+[2019.11.12-22.12.31:141][ 67]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Door16C4D312142A5AD7749AFD2BC142C501A.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/Widgets/Door1.uasset'
+[2019.11.12-22.12.45:000][476]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.12-22.12.50:379][ 82]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Door2.Door2
+[2019.11.12-22.13.09:095][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.13.18:585][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.13.23:784][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.13.29:556][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.13.39:049][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.14.12:451][381]BlueprintLog: New page: Compile Door2
+[2019.11.12-22.14.12:672][381]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2019.11.12-22.14.15:216][580]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.11.12-22.14.15:280][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.12-22.14.15:534][580]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Level2C0C8FD34469EC208B89DDF968A5548D8.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2019.11.12-22.14.15:546][580]LogFileHelpers: Saving map 'Level2' took 0.302
+[2019.11.12-22.14.15:579][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Door2" FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/BluePrints/Door2.uasset" SILENT=true
+[2019.11.12-22.14.15:603][580]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Door208E21CAD40291D54BB5F6982EDD4D8AF.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/BluePrints/Door2.uasset'
+[2019.11.12-22.14.17:489][751]LogSlate: Window 'Door2' being destroyed
+[2019.11.12-22.14.17:496][751]LogSlate: Window 'Door2' being destroyed
+[2019.11.12-22.14.17:504][751]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.14.17:547][751]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-22.14.17:547][751]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.14.22:342][214]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Door2.Door2
+[2019.11.12-22.14.37:489][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.14.37:610][412]BlueprintLog: New page: Compile Door2
+[2019.11.12-22.14.38:047][412]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2019.11.12-22.14.39:786][509]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2019.11.12-22.14.39:851][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Door2" FILE="../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/BluePrints/Door2.uasset" SILENT=true
+[2019.11.12-22.14.39:875][509]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Door2B3C1E9C54BF7E2DB5557859CDBEF8EF3.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/BluePrints/Door2.uasset'
+[2019.11.12-22.14.41:408][605]LogSlate: Window 'Door2' being destroyed
+[2019.11.12-22.14.41:416][605]LogSlate: Window 'Door2' being destroyed
+[2019.11.12-22.14.41:417][605]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.14.45:165][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.11.12-22.14.51:988][744]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.15.00:865][663]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.15.02:267][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.11.12-22.15.02:280][781]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.12-22.15.02:335][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.11.12-22.15.02:550][781]LogSavePackage: Moving '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Saved/Level222E1C66B4A220A8DC8DCE49217DA4DC0.tmp' to '../../../../../../Users/castl/OneDrive/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2019.11.12-22.15.02:564][781]LogFileHelpers: Saving map 'Level2' took 0.261
+[2019.11.12-22.15.04:453][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-22.15.04:611][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.11.12-22.15.04:632][ 10]LogSlate: Window 'Turkey_Noir - Unreal Editor' being destroyed
+[2019.11.12-22.15.04:633][ 10]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.12-22.15.04:736][ 11]Cmd: QUIT_EDITOR
+[2019.11.12-22.15.04:848][ 11]LogExit: Preparing to exit.
+[2019.11.12-22.15.05:136][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:136][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:136][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:136][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:136][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:136][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:136][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:136][ 11]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.15.05:138][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:138][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:138][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:138][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:138][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:138][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:138][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:138][ 11]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.15.05:139][ 11]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.15.05:140][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:140][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:140][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:140][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:140][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:140][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:140][ 11]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.11.12-22.15.05:140][ 11]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.15.05:161][ 11]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.11.12-22.15.05:172][ 11]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.12-22.15.05:172][ 11]LogExit: Editor shut down
+[2019.11.12-22.15.05:172][ 11]LogExit: Transaction tracking system shut down
+[2019.11.12-22.15.05:352][ 11]LogExit: Object subsystem successfully closed.
+[2019.11.12-22.15.05:367][ 11]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.12-22.15.05:401][ 11]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (676)
+[2019.11.12-22.15.05:401][ 11]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (674)
+[2019.11.12-22.15.05:401][ 11]LogModuleManager: Shutting down and abandoning module Voice (672)
+[2019.11.12-22.15.05:401][ 11]LogModuleManager: Shutting down and abandoning module BlueprintGraph (670)
+[2019.11.12-22.15.05:401][ 11]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (668)
+[2019.11.12-22.15.05:401][ 11]LogModuleManager: Shutting down and abandoning module SceneOutliner (666)
+[2019.11.12-22.15.05:401][ 11]LogModuleManager: Shutting down and abandoning module AddContentDialog (664)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module WidgetCarousel (663)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module EditorWidgets (660)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module CollectionManager (658)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module StatsViewer (656)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (654)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module FoliageEdit (652)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module LandscapeEditor (650)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module MeshPaintMode (648)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (646)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module ActorPickerMode (644)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module GeometryMode (642)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module TextureAlignMode (640)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module BspMode (638)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (636)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (634)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module AutomationWorker (632)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module OculusMR (630)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (628)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (626)
+[2019.11.12-22.15.05:402][ 11]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (624)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module PlacementMode (623)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module MaterialEditor (622)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (618)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (616)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (614)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (612)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (610)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module WebMMedia (608)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (606)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (604)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module SequenceRecorder (603)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (600)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (598)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (596)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (594)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (592)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (590)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (588)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (586)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (584)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (582)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (580)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module CharacterAI (578)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module SmartSnapping (576)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module SessionServices (574)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module MeshPaint (572)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module ViewportSnapping (570)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module ViewportInteraction (568)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module ClothPainter (566)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (565)
+[2019.11.12-22.15.05:403][ 11]LogModuleManager: Shutting down and abandoning module LogVisualizer (562)
+[2019.11.12-22.15.05:404][ 11]LogModuleManager: Shutting down and abandoning module IntroTutorials (560)
+[2019.11.12-22.15.05:404][ 11]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (559)
+[2019.11.12-22.15.05:404][ 11]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (556)
+[2019.11.12-22.15.05:404][ 11]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (554)
+[2019.11.12-22.15.05:404][ 11]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (552)
+[2019.11.12-22.15.05:404][ 11]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (550)
+[2019.11.12-22.15.05:404][ 11]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (549)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (546)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (544)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (542)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (540)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (538)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module InputBindingEditor (536)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module MergeActors (534)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (532)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module LocalizationService (531)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module HardwareTargeting (528)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (526)
+[2019.11.12-22.15.06:143][ 11]LogModuleManager: Shutting down and abandoning module UndoHistory (524)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module XmlParser (522)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module Blutility (520)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (518)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (517)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (514)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module SettingsEditor (512)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module ProjectLauncher (510)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module SessionFrontend (508)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module ProfilerClient (506)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module DeviceManager (504)
+[2019.11.12-22.15.06:144][ 11]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (503)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module AutomationController (500)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module AutomationWindow (498)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module Layers (496)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (494)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module DetailCustomizations (492)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module PackagesDialog (490)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (488)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module Persona (486)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (485)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module AnimGraph (483)
+[2019.11.12-22.15.06:188][ 11]LogModuleManager: Shutting down and abandoning module Kismet (480)
+[2019.11.12-22.15.06:194][ 11]LogModuleManager: Shutting down and abandoning module KismetWidgets (479)
+[2019.11.12-22.15.06:194][ 11]LogModuleManager: Shutting down and abandoning module GraphEditor (476)
+[2019.11.12-22.15.06:194][ 11]LogModuleManager: Shutting down and abandoning module StructViewer (474)
+[2019.11.12-22.15.06:194][ 11]LogModuleManager: Shutting down and abandoning module ClassViewer (472)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module Toolbox (470)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.11.12-22.15.06:195][ 11]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module DesktopPlatform (430)
+[2019.11.12-22.15.06:196][ 11]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (428)
+[2019.11.12-22.15.06:199][ 11]LogModuleManager: Shutting down and abandoning module ProfilerService (426)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module TaskGraph (424)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module ScreenshotTools (422)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module OculusInput (412)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module CableComponent (404)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (398)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module AppleImageUtils (396)
+[2019.11.12-22.15.06:360][ 11]LogModuleManager: Shutting down and abandoning module AndroidPermission (394)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (392)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (390)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module MediaCompositing (388)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module HTML5Networking (378)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (376)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (374)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module BackChannel (372)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (370)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module AutomationUtils (368)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module AlembicImporter (366)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module AlembicLibrary (365)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module GeometryCache (364)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (363)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module VariantManagerContent (358)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (356)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (354)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module PluginBrowser (352)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (350)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (348)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module CurveEditorTools (346)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module CurveEditor (345)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (342)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module CryptoKeys (340)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (338)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (330)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module GitSourceControl (328)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module SourceControl (327)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (322)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (320)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (318)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (316)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (314)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (312)
+[2019.11.12-22.15.06:361][ 11]LogModuleManager: Shutting down and abandoning module Paper2DEditor (310)
+[2019.11.12-22.15.06:362][ 11]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.11.12-22.15.06:362][ 11]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.11.12-22.15.06:362][ 11]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.11.12-22.15.06:362][ 11]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.11.12-22.15.06:362][ 11]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.11.12-22.15.06:362][ 11]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.11.12-22.15.06:463][ 11]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.11.12-22.15.06:564][ 11]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.11.12-22.15.06:564][ 11]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.11.12-22.15.06:565][ 11]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.11.12-22.15.06:565][ 11]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.11.12-22.15.06:566][ 11]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.11.12-22.15.06:566][ 11]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.11.12-22.15.06:566][ 11]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.11.12-22.15.06:567][ 11]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.11.12-22.15.06:568][ 11]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.11.12-22.15.06:568][ 11]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.11.12-22.15.06:568][ 11]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.11.12-22.15.06:568][ 11]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.11.12-22.15.06:573][ 11]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.11.12-22.15.06:574][ 11]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.11.12-22.15.06:574][ 11]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.11.12-22.15.06:574][ 11]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.11.12-22.15.06:574][ 11]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.11.12-22.15.06:574][ 11]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.11.12-22.15.06:574][ 11]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.11.12-22.15.06:576][ 11]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.11.12-22.15.06:577][ 11]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.11.12-22.15.06:577][ 11]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.11.12-22.15.06:577][ 11]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.11.12-22.15.06:577][ 11]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.11.12-22.15.06:580][ 11]LogDerivedDataCache: Shutdown
+[2019.11.12-22.15.06:580][ 11]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.11.12-22.15.06:580][ 11]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.11.12-22.15.06:580][ 11]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.11.12-22.15.06:580][ 11]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.11.12-22.15.06:581][ 11]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.11.12-22.15.06:581][ 11]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.11.12-22.15.06:581][ 11]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.11.12-22.15.06:581][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.11.12-22.15.06:581][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.11.12-22.15.06:581][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.11.12-22.15.06:581][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.11.12-22.15.06:582][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.11.12-22.15.06:582][ 11]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.11.12-22.15.06:582][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.11.12-22.15.06:582][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.11.12-22.15.06:582][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.11.12-22.15.06:582][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.11.12-22.15.06:582][ 11]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.11.12-22.15.06:584][ 11]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.11.12-22.15.06:584][ 11]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.11.12-22.15.06:584][ 11]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.11.12-22.15.06:584][ 11]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.11.12-22.15.06:585][ 11]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.11.12-22.15.06:586][ 11]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.11.12-22.15.06:586][ 11]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.11.12-22.15.06:589][ 11]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.11.12-22.15.06:589][ 11]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.11.12-22.15.06:600][ 11]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.11.12-22.15.06:601][ 11]LogHMD: Freeing OpenVRDLLHandle.
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.11.12-22.15.06:601][ 11]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.11.12-22.15.06:602][ 11]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.11.12-22.15.06:602][ 11]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.11.12-22.15.06:627][ 11]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.11.12-22.15.06:627][ 11]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.11.12-22.15.06:627][ 11]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA83986E6-49FB-B105-CE6C-EB99AF6DE5C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=6bc5f8fe4fc7513373c474b1c2a22352%7C8878cbd6ebd44743b5ec66f2401b973d%7C77c2acd1-c1e5-47f2-9d94-e1c3464c3790&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.12-22.15.06:655][ 11]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.11.12-22.15.06:656][ 11]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.11.12-22.15.06:658][ 11]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.11.12-22.15.06:659][ 11]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.11.12-22.15.06:659][ 11]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.11.12-22.15.06:660][ 11]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.11.12-22.15.06:661][ 11]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.11.12-22.15.06:662][ 11]LogD3D11RHI: Shutdown
+[2019.11.12-22.15.06:662][ 11]LogD3D11RHI: CleanupD3DDevice
+[2019.11.12-22.15.06:663][ 11]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.12-22.15.06:664][ 11]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.12-22.15.06:664][ 11]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.12-22.15.06:884][ 11]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.12-22.15.06:897][ 11]LogExit: Exiting.
+[2019.11.12-22.15.06:909][ 11]Log file closed, 11/12/19 17:15:06
