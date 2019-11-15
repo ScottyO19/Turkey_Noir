@@ -1,4 +1,4 @@
-﻿Log file open, 11/15/19 15:26:24
+﻿Log file open, 11/15/19 15:45:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: Turkey_Noir
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.066838
+LogStats: Stats thread started at 0.064312
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,884 +157,629 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2019.11.15-20.26.24:416][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
-[2019.11.15-20.26.24:417][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.11.15-20.26.24:417][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
-[2019.11.15-20.26.24:417][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
-[2019.11.15-20.26.24:419][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.15-20.26.24:419][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.15-20.26.24:420][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.15-20.26.24:420][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.15-20.26.24:420][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.11.15-20.26.24:423][  0]LogHAL: Display: Platform has ~ 32 GB [34301571072 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.11.15-20.26.24:423][  0]LogInit: Going up to parent DeviceProfile []
-[2019.11.15-20.26.24:423][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.15-20.26.24:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.15-20.26.24:424][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.11.15-20.26.24:435][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.11.15-20.26.24:435][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.11.15-20.26.24:435][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
-[2019.11.15-20.26.24:435][  0]LogInit: Computer: NQSCGL-MSI-11
-[2019.11.15-20.26.24:435][  0]LogInit: User: soneil
-[2019.11.15-20.26.24:435][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.11.15-20.26.24:435][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.11.15-20.26.24:435][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.11.15-20.26.24:435][  0]LogMemory: Platform Memory Stats for Windows
-[2019.11.15-20.26.24:435][  0]LogMemory: Process Physical Memory: 104.33 MB used, 104.34 MB peak
-[2019.11.15-20.26.24:435][  0]LogMemory: Process Virtual Memory: 100.59 MB used, 100.59 MB peak
-[2019.11.15-20.26.24:435][  0]LogMemory: Physical Memory: 5945.54 MB used,  26766.99 MB free, 32712.53 MB total
-[2019.11.15-20.26.24:435][  0]LogMemory: Virtual Memory: 4669.07 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2019.11.15-20.26.24:438][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.11.15-20.26.24:458][  0]LogInit: Using OS detected language (en-US).
-[2019.11.15-20.26.24:459][  0]LogInit: Using OS detected locale (en-US).
-[2019.11.15-20.26.24:459][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.11.15-20.26.24:636][  0]LogInit: Setting process to per monitor DPI aware
-[2019.11.15-20.26.24:722][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.11.15-20.26.24:722][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.11.15-20.26.25:465][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.15-20.26.25:465][  0]LogD3D11RHI: D3D11 adapters:
-[2019.11.15-20.26.25:532][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.11.15-20.26.25:532][  0]LogD3D11RHI:       8088/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.11.15-20.26.25:535][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.11.15-20.26.25:535][  0]LogD3D11RHI:       0/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.11.15-20.26.25:535][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.11.15-20.26.25:540][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.11.15-20.26.25:540][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.11.15-20.26.25:540][  0]LogWindows: EnumDisplayDevices:
-[2019.11.15-20.26.25:540][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.11.15-20.26.25:540][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.11.15-20.26.25:541][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.11.15-20.26.25:541][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.11.15-20.26.25:541][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.11.15-20.26.25:541][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.11.15-20.26.25:541][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
-[2019.11.15-20.26.25:541][  0]LogD3D11RHI:      Driver Date: 5-22-2019
-[2019.11.15-20.26.25:541][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2019.11.15-20.26.25:579][  0]LogD3D11RHI: Async texture creation enabled
-[2019.11.15-20.26.25:590][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.11.15-20.26.25:993][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.11.15-20.26.26:001][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.11.15-20.26.26:009][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.11.15-20.26.26:018][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.11.15-20.26.26:026][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.11.15-20.26.26:035][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.11.15-20.26.26:043][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.11.15-20.26.26:051][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.11.15-20.26.26:055][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.11.15-20.26.26:083][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.11.15-20.26.26:085][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.11.15-20.26.26:135][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.11.15-20.26.26:135][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.11.15-20.26.26:148][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.11.15-20.26.26:148][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.11.15-20.26.26:154][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.11.15-20.26.26:160][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.11.15-20.26.26:166][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.11.15-20.26.26:192][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.11.15-20.26.26:214][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.11.15-20.26.26:214][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.11.15-20.26.26:214][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.11.15-20.26.26:222][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.11.15-20.26.26:377][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Intermediate/Shaders/WorkingDirectory/167680/).
-[2019.11.15-20.26.26:377][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/soneil/AppData/Local/Temp/UnrealShaderWorkingDir/98D819914DDF6A152B7A9ABD94393800/'.
-[2019.11.15-20.26.26:380][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.11.15-20.26.26:380][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.11.15-20.26.26:380][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.11.15-20.26.28:061][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.11.15-20.26.28:108][  0]LogDerivedDataCache: Loaded boot cache 0.05s 74MB C:/Users/soneil/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.15-20.26.28:108][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/soneil/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.11.15-20.26.28:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.11.15-20.26.28:108][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.11.15-20.26.28:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.15-20.26.28:108][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.11.15-20.26.28:118][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.11.15-20.26.28:118][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.15-20.26.28:118][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.11.15-20.26.28:119][  0]LogDerivedDataCache: Using Local data cache path C:/Users/soneil/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.11.15-20.26.28:119][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.11.15-20.26.28:119][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.11.15-20.26.28:136][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.11.15-20.26.28:138][  0]LogSlate: Using FreeType 2.6.0
-[2019.11.15-20.26.28:139][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.11.15-20.26.30:608][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
-[2019.11.15-20.26.30:822][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.15-20.26.31:025][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.11.15-20.26.31:025][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.11.15-20.26.31:025][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.11.15-20.26.31:025][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.11.15-20.26.31:025][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.11.15-20.26.31:035][  0]LogNetVersion: Turkey_Noir 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1987931208)
-[2019.11.15-20.26.31:442][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.041539 seconds
-[2019.11.15-20.26.31:448][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.11.15-20.26.31:448][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.11.15-20.26.31:448][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.11.15-20.26.36:523][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.11.15-20.26.36:525][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.11.15-20.26.36:580][  0]SourceControl: Source control is disabled
-[2019.11.15-20.26.36:580][  0]SourceControl: Source control is disabled
-[2019.11.15-20.26.36:581][  0]SourceControl: Source control is disabled
-[2019.11.15-20.26.36:582][  0]SourceControl: Source control is disabled
-[2019.11.15-20.26.36:590][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.11.15-20.26.36:590][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.11.15-20.26.36:682][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.11.15-20.26.36:873][  0]LogOcInput: OculusInput pre-init called
-[2019.11.15-20.26.36:879][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.11.15-20.26.36:879][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.11.15-20.26.36:943][  0]LogEngine: Initializing Engine...
-[2019.11.15-20.26.36:944][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.15-20.26.36:945][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.11.15-20.26.37:160][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.11.15-20.26.37:174][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.11.15-20.26.37:257][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.15-20.26.37:288][  0]LogInit: FAudioDevice initialized.
-[2019.11.15-20.26.37:288][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.11.15-20.26.37:721][  0]LogDerivedDataCache: Saved boot cache 0.43s 74MB C:/Users/soneil/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.15-20.26.37:725][  0]LogInit: Texture streaming: Enabled
-[2019.11.15-20.26.37:749][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.11.15-20.26.37:794][  0]LogInit: Transaction tracking system initialized
-[2019.11.15-20.26.37:834][  0]BlueprintLog: New page: Editor Load
-[2019.11.15-20.26.37:923][  0]LocalizationService: Localization service is disabled
-[2019.11.15-20.26.37:984][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.11.15-20.26.37:985][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.11.15-20.26.38:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/' took 0.00s
-[2019.11.15-20.26.38:136][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.11.15-20.26.38:136][  0]LogCook: Display: Mobile HDR setting 1
-[2019.11.15-20.26.38:323][  0]SourceControl: Source control is disabled
-[2019.11.15-20.26.38:323][  0]Cmd: MAP LOAD FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.15-20.26.38:323][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
-[2019.11.15-20.26.38:323][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.15-20.26.38:323][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
-[2019.11.15-20.26.38:323][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.001
-[2019.11.15-20.26.38:402][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.26.38:408][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.26.38:414][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.26.38:420][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.26.38:426][  0]LogCollectionManager: Loaded 0 collections in 0.001656 seconds
-[2019.11.15-20.26.38:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Collections/' took 0.00s
-[2019.11.15-20.26.38:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/Developers/soneil/Collections/' took 0.00s
-[2019.11.15-20.26.38:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/Collections/' took 0.00s
-[2019.11.15-20.26.38:432][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.11.15-20.26.38:439][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2863 classes and 680 folders.
-[2019.11.15-20.26.38:445][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.15-20.26.38:483][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.15-20.26.38:488][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.11.15-20.26.38:501][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.11.15-20.26.38:503][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.11.15-20.26.38:506][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.11.15-20.26.38:558][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
-[2019.11.15-20.26.38:650][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.26.38:666][  0]LogSlate: Window 'Tutorials' being destroyed
-[2019.11.15-20.26.38:677][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.15-20.26.38:677][  0]LogLoad: (Engine Initialization) Total time: 19.40 seconds
-[2019.11.15-20.26.38:677][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.11.15-20.26.38:721][  0]LogAssetRegistry: Asset discovery search completed in 8.1160 seconds
-[2019.11.15-20.26.38:724][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2019.11.15-20.26.38:724][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
-[2019.11.15-20.26.38:726][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.11.15-20.26.39:024][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.15-20.26.39:030][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/' took 0.34s
-[2019.11.15-20.26.41:698][318]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.15-20.26.42:110][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.26.42:432][381]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2019.11.15-20.26.42:432][381]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2019.11.15-20.26.42:432][381]LogTexture: Display: Building textures: brick_side (AutoDXT, 1632X1368)
-[2019.11.15-20.26.42:491][381]LogMaterial: Display: Missing cached shader map for material brick_side_Mat, compiling. 
-[2019.11.15-20.26.42:534][381]LogMaterial: Display: Missing cached shader map for material black, compiling. 
-[2019.11.15-20.26.42:606][381]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
-[2019.11.15-20.26.42:606][381]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
-[2019.11.15-20.26.42:606][381]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
-[2019.11.15-20.26.42:606][381]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
-[2019.11.15-20.26.42:606][381]LogAIModule: Creating AISystem for world Level1
-[2019.11.15-20.26.42:617][381]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level1.Level1
-[2019.11.15-20.26.42:639][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2019.11.15-20.26.42:640][381]Cmd: MAP LOAD FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.15-20.26.42:640][381]LightingResults: New page: Lighting Build
-[2019.11.15-20.26.42:642][381]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
-[2019.11.15-20.26.42:643][381]LoadErrors: New page: Loading map: Level1.umap
-[2019.11.15-20.26.42:643][381]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.26.42:643][381]MapCheck: New page: Map Check
-[2019.11.15-20.26.42:643][381]LightingResults: New page: Lighting Build
-[2019.11.15-20.26.42:663][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
-[2019.11.15-20.26.42:667][381]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.15-20.26.42:688][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
-[2019.11.15-20.26.42:702][381]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.15-20.26.42:702][381]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.113ms to complete.
-[2019.11.15-20.26.42:702][381]LogFileHelpers: Loading map 'Level1' took 0.063
-[2019.11.15-20.26.44:100][531]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
-[2019.11.15-20.26.44:300][554]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
-[2019.11.15-20.26.44:664][597]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
-[2019.11.15-20.26.45:296][670]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
-[2019.11.15-20.26.45:448][687]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
-[2019.11.15-20.26.45:717][719]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
-[2019.11.15-20.26.45:845][734]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
-[2019.11.15-20.26.46:097][764]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
-[2019.11.15-20.26.50:237][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.28.57:877][201]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
-[2019.11.15-20.28.58:167][201]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2019.11.15-20.28.59:032][201]LogSlate: Took 0.009160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.11.15-20.28.59:231][202]LogSlate: Took 0.047215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.11.15-20.29.15:585][569]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Desktop/Turkey_Colored.png)
-[2019.11.15-20.29.15:589][569]LogTexture: Display: Building textures: Turkey_Colored (BGRA8, 352X429)
-[2019.11.15-20.29.16:888][719]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/Turkey_Colored.Turkey_Colored
-[2019.11.15-20.29.16:893][719]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.11.15-20.29.18:540][876]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Turkey_Colored2C9AB23C4A7931FCE950B4A397FBE5AE.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Colored.uasset'
-[2019.11.15-20.29.35:986][860]LogRenderer: Reallocating scene render targets to support 1056x868 Format 10 NumSamples 1 (Frame:1604).
-[2019.11.15-20.29.48:339][209]AssetReimport: New page: Outstanding source content changes 10:29:48 AM
-[2019.11.15-20.29.48:340][209]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/logo.png)
-[2019.11.15-20.29.48:411][210]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/playbutton.png)
-[2019.11.15-20.29.48:463][211]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/StartScreen_Background.png)
-[2019.11.15-20.29.48:679][212]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/Turkey_Colored.png)
-[2019.11.15-20.29.48:707][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/logo" FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/logo.uasset" SILENT=true
-[2019.11.15-20.29.48:722][212]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/logoEB7642BE4DF89EB4871D3BA767A7F199.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/logo.uasset'
-[2019.11.15-20.29.48:741][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/playbutton" FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/playbutton.uasset" SILENT=true
-[2019.11.15-20.29.48:753][212]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/playbutton71C37CD6496114737D40F39524035A78.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/playbutton.uasset'
-[2019.11.15-20.29.48:770][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StartScreen_Background" FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/StartScreen_Background.uasset" SILENT=true
-[2019.11.15-20.29.48:787][212]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/StartScreen_Background5643EB44468CCD87B97919BFB4FE17C1.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/StartScreen_Background.uasset'
-[2019.11.15-20.29.48:803][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Turkey_Colored" FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/Turkey_Colored.uasset" SILENT=true
-[2019.11.15-20.29.48:815][212]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Turkey_ColoredAFC510554F3C3B295686E9B8AEFA757D.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/Turkey_Colored.uasset'
-[2019.11.15-20.29.51:826][542]AssetReimport: Importing new asset /Game/logo.
-[2019.11.15-20.29.51:826][542]AssetReimport: Importing new asset /Game/playbutton.
-[2019.11.15-20.29.51:826][542]AssetReimport: Importing new asset /Game/StartScreen_Background.
-[2019.11.15-20.29.51:826][542]AssetReimport: Importing new asset /Game/Turkey_Colored.
-[2019.11.15-20.32.50:275][116]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.15-20.33.20:359][623]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Colored_Sprite.Turkey_Colored_Sprite
-[2019.11.15-20.33.20:512][624]LogRenderer: Reallocating scene render targets to support 1336x888 Format 10 NumSamples 1 (Frame:1).
-[2019.11.15-20.33.22:952][902]LogSlate: Window 'Turkey_Colored_Sprite' being destroyed
-[2019.11.15-20.33.22:955][902]LogSlate: Window 'Turkey_Colored_Sprite' being destroyed
-[2019.11.15-20.33.22:964][902]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.33.23:016][902]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.33.26:481][313]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(685)].
-[2019.11.15-20.33.34:935][324]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/2DSideScrollerBP/Blueprints/Turkey.Turkey
-[2019.11.15-20.33.36:054][438]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/TurkeyC5A386E346E4CFF8BE99A5A802AF1169.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey.uasset'
-[2019.11.15-20.33.37:544][613]LogSlate: Window 'Turkey' being destroyed
-[2019.11.15-20.33.37:548][613]LogSlate: Window 'Turkey' being destroyed
-[2019.11.15-20.33.37:556][613]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.33.38:839][765]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Colored_Sprite.Turkey_Colored_Sprite
-[2019.11.15-20.33.41:705][ 87]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Turkey_Colored_SpriteFC17FE714D2FC4EDEFF4E08FDF1989F0.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Colored_Sprite.uasset'
-[2019.11.15-20.33.42:987][236]LogSlate: Window 'Turkey_Colored_Sprite' being destroyed
-[2019.11.15-20.33.42:991][236]LogSlate: Window 'Turkey_Colored_Sprite' being destroyed
-[2019.11.15-20.33.42:999][236]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.33.49:258][862]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
-[2019.11.15-20.33.53:228][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.15-20.34.04:576][389]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.15-20.34.13:602][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.15-20.34.18:548][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.34.18:614][830]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2019.11.15-20.34.18:879][830]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
-[2019.11.15-20.34.19:596][897]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacter0A1B81EF48AA9B8C2B6678B15A188472.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2019.11.15-20.34.28:682][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.34.31:273][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.34.46:500][781]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2019.11.15-20.34.46:726][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
-[2019.11.15-20.34.47:452][860]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterBF9D7C074227F15ACC6972A1A8E2EE0B.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2019.11.15-20.34.54:029][635]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.11.15-20.35.00:261][368]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.35.01:285][486]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
-[2019.11.15-20.35.01:290][486]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.35.01:320][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2019.11.15-20.35.01:448][486]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level18B82998547C496FB91FA3FB2C979F81D.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap'
-[2019.11.15-20.35.01:466][486]LogFileHelpers: Saving map 'Level1' took 0.171
-[2019.11.15-20.35.02:526][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.35.02:576][608]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.15-20.35.02:584][608]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.35.02:584][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.15-20.35.02:608][608]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:35:02 AM)
-[2019.11.15-20.35.02:609][608]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.11.15-20.35.02:610][608]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.35.02:614][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003266s)
-[2019.11.15-20.35.02:614][608]LogAIModule: Creating AISystem for world Level1
-[2019.11.15-20.35.02:614][608]LogPlayLevel: PIE: World Init took: (0.000771s)
-[2019.11.15-20.35.02:614][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.004236s)
-[2019.11.15-20.35.02:641][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
-[2019.11.15-20.35.02:689][608]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.15-20.35.02:732][608]LogInit: FAudioDevice initialized.
-[2019.11.15-20.35.02:744][608]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.11.15-20.35.02:810][608]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.35.02
-[2019.11.15-20.35.02:811][608]LogWorld: Bringing up level for play took: 0.001660
-[2019.11.15-20.35.02:811][608]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2019.11.15-20.35.02:819][608]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2019.11.15-20.35.02:820][608]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 0.308
-[2019.11.15-20.35.02:820][608]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.35.05:926][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.35.05:927][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.35.05:927][949]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.35.05:927][949]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.35.05:939][949]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.15-20.35.05:939][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.35.05:975][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.35.05:996][949]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
-[2019.11.15-20.35.06:026][952]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.11.15-20.35.12:622][734]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.35.15:950][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.35.30:332][754]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2019.11.15-20.35.30:512][754]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
-[2019.11.15-20.35.31:052][806]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterCB47D7E84CF985F853000EA101BA5B53.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2019.11.15-20.35.31:614][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.35.39:394][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.35.39:460][759]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.15-20.35.39:469][759]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.35.39:469][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.15-20.35.39:469][759]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:35:39 AM)
-[2019.11.15-20.35.39:469][759]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.35.39:473][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003810s)
-[2019.11.15-20.35.39:473][759]LogAIModule: Creating AISystem for world Level1
-[2019.11.15-20.35.39:473][759]LogPlayLevel: PIE: World Init took: (0.000721s)
-[2019.11.15-20.35.39:473][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.004621s)
-[2019.11.15-20.35.39:503][759]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
-[2019.11.15-20.35.39:541][759]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.15-20.35.39:552][759]LogInit: FAudioDevice initialized.
-[2019.11.15-20.35.39:556][759]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.11.15-20.35.39:558][759]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.35.39
-[2019.11.15-20.35.39:558][759]LogWorld: Bringing up level for play took: 0.000683
-[2019.11.15-20.35.39:558][759]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2019.11.15-20.35.39:560][759]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 1.051
-[2019.11.15-20.35.39:560][759]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.35.48:379][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.35.48:379][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.35.48:379][817]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.35.48:379][817]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.35.48:393][817]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.15-20.35.48:393][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.35.48:430][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.35.48:433][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
-[2019.11.15-20.35.48:481][822]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.11.15-20.35.52:599][304]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.35.57:105][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.35.57:155][802]LogSlate: Window '2DSideScrollerCharacter' being destroyed
-[2019.11.15-20.35.57:159][802]LogSlate: Window '2DSideScrollerCharacter' being destroyed
-[2019.11.15-20.35.57:160][802]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.35.58:671][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.35.58:808][993]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/2DSideScrollerBP/Blueprints/Turkey.Turkey
-[2019.11.15-20.36.04:946][719]LogSlate: Window 'Turkey' being destroyed
-[2019.11.15-20.36.04:950][719]LogSlate: Window 'Turkey' being destroyed
-[2019.11.15-20.36.04:958][719]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.36.05:820][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.36.06:008][843]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Colored_Sprite.Turkey_Colored_Sprite
-[2019.11.15-20.36.14:252][819]LogSlate: Window 'Turkey_Colored_Sprite' being destroyed
-[2019.11.15-20.36.14:255][819]LogSlate: Window 'Turkey_Colored_Sprite' being destroyed
-[2019.11.15-20.36.14:263][819]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.36.16:250][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.36.16:421][ 76]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/2DSideScrollerBP/Blueprints/Turkey.Turkey
-[2019.11.15-20.36.18:916][369]LogSlate: Window 'Turkey' being destroyed
-[2019.11.15-20.36.18:919][369]LogSlate: Window 'Turkey' being destroyed
-[2019.11.15-20.36.18:927][369]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.36.22:084][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.36.22:230][763]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
-[2019.11.15-20.36.33:855][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.36.48:686][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.37.29:097][334]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2019.11.15-20.37.29:352][334]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
-[2019.11.15-20.37.29:972][395]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacter6909A3644A29913D7B7D228CF55F3619.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2019.11.15-20.37.30:883][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.37.31:750][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.37.31:817][613]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.15-20.37.31:824][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.37.31:824][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.15-20.37.31:824][613]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:37:31 AM)
-[2019.11.15-20.37.31:824][613]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.37.31:828][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003472s)
-[2019.11.15-20.37.31:828][613]LogAIModule: Creating AISystem for world Level1
-[2019.11.15-20.37.31:829][613]LogPlayLevel: PIE: World Init took: (0.000793s)
-[2019.11.15-20.37.31:829][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.004356s)
-[2019.11.15-20.37.31:872][613]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
-[2019.11.15-20.37.31:905][613]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.15-20.37.31:917][613]LogInit: FAudioDevice initialized.
-[2019.11.15-20.37.31:923][613]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.11.15-20.37.31:925][613]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.37.31
-[2019.11.15-20.37.31:925][613]LogWorld: Bringing up level for play took: 0.000706
-[2019.11.15-20.37.31:925][613]LogOnline: OSS: Creating online subsystem instance for: :Context_14
-[2019.11.15-20.37.31:927][613]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 -0.573
-[2019.11.15-20.37.31:927][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.37.51:505][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.37.51:505][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.37.51:505][962]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.37.51:505][962]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.37.51:512][962]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.15-20.37.51:512][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.37.51:543][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.37.51:546][962]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
-[2019.11.15-20.37.51:612][969]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.11.15-20.37.55:738][457]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.38.03:294][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.38.08:320][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.38.19:262][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.15-20.38.41:907][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.39.00:794][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.39.00:824][719]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2019.11.15-20.39.01:009][719]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
-[2019.11.15-20.39.01:574][769]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterA806BF7347935BEB5EA53DB61339BE5A.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2019.11.15-20.39.02:721][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.39.03:659][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.39.03:692][  5]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.15-20.39.03:700][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.39.03:700][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.15-20.39.03:700][  5]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:39:03 AM)
-[2019.11.15-20.39.03:700][  5]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.39.03:704][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003452s)
-[2019.11.15-20.39.03:704][  5]LogAIModule: Creating AISystem for world Level1
-[2019.11.15-20.39.03:705][  5]LogPlayLevel: PIE: World Init took: (0.000776s)
-[2019.11.15-20.39.03:705][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.004314s)
-[2019.11.15-20.39.03:732][  5]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
-[2019.11.15-20.39.03:764][  5]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.15-20.39.03:775][  5]LogInit: FAudioDevice initialized.
-[2019.11.15-20.39.03:782][  5]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.11.15-20.39.03:783][  5]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.39.03
-[2019.11.15-20.39.03:823][  5]LogWorld: Bringing up level for play took: 0.039979
-[2019.11.15-20.39.03:823][  5]LogOnline: OSS: Creating online subsystem instance for: :Context_15
-[2019.11.15-20.39.03:825][  5]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 -0.667
-[2019.11.15-20.39.03:825][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.39.05:970][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.39.05:970][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.39.05:970][262]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.39.05:970][262]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.39.05:980][262]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.15-20.39.05:980][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.39.06:010][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.39.06:013][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2019.11.15-20.39.06:076][269]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.11.15-20.39.11:572][916]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.39.21:713][981]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2019.11.15-20.39.21:862][981]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
-[2019.11.15-20.39.22:489][ 49]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacter2D9107EC4A1E90065C9C15B6CBD00E5A.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2019.11.15-20.39.23:768][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.39.24:635][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.39.24:719][313]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.15-20.39.24:726][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.39.24:727][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.15-20.39.24:727][313]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:39:24 AM)
-[2019.11.15-20.39.24:727][313]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.39.24:730][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003244s)
-[2019.11.15-20.39.24:731][313]LogAIModule: Creating AISystem for world Level1
-[2019.11.15-20.39.24:731][313]LogPlayLevel: PIE: World Init took: (0.000755s)
-[2019.11.15-20.39.24:731][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.004084s)
-[2019.11.15-20.39.24:755][313]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
-[2019.11.15-20.39.24:787][313]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.15-20.39.24:798][313]LogInit: FAudioDevice initialized.
-[2019.11.15-20.39.24:804][313]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.11.15-20.39.24:805][313]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.39.24
-[2019.11.15-20.39.24:805][313]LogWorld: Bringing up level for play took: 0.000634
-[2019.11.15-20.39.24:805][313]LogOnline: OSS: Creating online subsystem instance for: :Context_16
-[2019.11.15-20.39.24:807][313]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 0.316
-[2019.11.15-20.39.24:807][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.39.27:259][607]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.39.27:259][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.39.27:259][607]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.39.27:259][607]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.39.27:266][607]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.15-20.39.27:266][607]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.39.27:297][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.39.27:300][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2019.11.15-20.39.27:363][614]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.11.15-20.39.35:918][631]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.40.01:537][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.40.01:600][520]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2019.11.15-20.40.01:768][520]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
-[2019.11.15-20.40.02:269][573]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterC90DD9D64BDCCEB7EFB46F86B16E5AC6.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2019.11.15-20.40.03:364][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.40.05:309][934]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.11.15-20.40.08:930][354]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.11.15-20.40.14:324][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.40.14:408][  2]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.15-20.40.14:415][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.40.14:415][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.15-20.40.14:415][  2]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:40:14 AM)
-[2019.11.15-20.40.14:415][  2]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.40.14:419][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003341s)
-[2019.11.15-20.40.14:419][  2]LogAIModule: Creating AISystem for world Level1
-[2019.11.15-20.40.14:420][  2]LogPlayLevel: PIE: World Init took: (0.000776s)
-[2019.11.15-20.40.14:420][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.004203s)
-[2019.11.15-20.40.14:447][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
-[2019.11.15-20.40.14:480][  2]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.15-20.40.14:492][  2]LogInit: FAudioDevice initialized.
-[2019.11.15-20.40.14:498][  2]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.11.15-20.40.14:500][  2]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.40.14
-[2019.11.15-20.40.14:500][  2]LogWorld: Bringing up level for play took: 0.000646
-[2019.11.15-20.40.14:500][  2]LogOnline: OSS: Creating online subsystem instance for: :Context_17
-[2019.11.15-20.40.14:502][  2]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 0.015
-[2019.11.15-20.40.14:502][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.40.19:820][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.40.19:820][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.40.19:820][639]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.40.19:820][639]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.40.19:831][639]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.15-20.40.19:831][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.40.19:860][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.40.19:863][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
-[2019.11.15-20.40.19:927][646]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.11.15-20.40.21:076][783]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.40.22:674][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2019.11.15-20.40.22:679][972]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.40.22:710][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
-[2019.11.15-20.40.22:838][972]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level15C03C4E04EB65E183D9966A3AF5FD82D.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap'
-[2019.11.15-20.40.22:855][972]LogFileHelpers: Saving map 'Level1' took 0.172
-[2019.11.15-20.40.24:887][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.40.24:961][223]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.15-20.40.24:968][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.40.24:968][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.15-20.40.24:968][223]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:40:24 AM)
-[2019.11.15-20.40.24:968][223]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.40.24:972][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003218s)
-[2019.11.15-20.40.24:972][223]LogAIModule: Creating AISystem for world Level1
-[2019.11.15-20.40.24:972][223]LogPlayLevel: PIE: World Init took: (0.000746s)
-[2019.11.15-20.40.24:972][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.004046s)
-[2019.11.15-20.40.24:998][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
-[2019.11.15-20.40.25:030][223]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.15-20.40.25:041][223]LogInit: FAudioDevice initialized.
-[2019.11.15-20.40.25:047][223]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.11.15-20.40.25:048][223]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.40.25
-[2019.11.15-20.40.25:048][223]LogWorld: Bringing up level for play took: 0.000634
-[2019.11.15-20.40.25:048][223]LogOnline: OSS: Creating online subsystem instance for: :Context_18
-[2019.11.15-20.40.25:050][223]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 0.565
-[2019.11.15-20.40.25:050][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.40.32:727][144]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Level2
-[2019.11.15-20.40.32:727][144]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Level2
-[2019.11.15-20.40.32:727][144]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
-[2019.11.15-20.40.32:727][144]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.40.32:754][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
-[2019.11.15-20.40.32:816][144]LogTexture: Display: Building textures: 2DBackgroundTile (AutoDXT, 256X256)
-[2019.11.15-20.40.32:816][144]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2019.11.15-20.40.32:816][144]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2019.11.15-20.40.32:816][144]LogMaterial: Display: Missing cached shader map for material PrototypingSpriteMaterial, compiling. 
-[2019.11.15-20.40.32:827][144]LogAIModule: Creating AISystem for world Level2
-[2019.11.15-20.40.32:827][144]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.11.15-20.40.32:829][144]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.11.15-15.40.32
-[2019.11.15-20.40.32:830][144]LogWorld: Bringing up level for play took: 0.001957
-[2019.11.15-20.40.32:830][144]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.11.15-20.40.32:831][144]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
-[2019.11.15-20.40.32:831][144]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
-[2019.11.15-20.40.32:831][144]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
-[2019.11.15-20.40.32:831][144]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
-[2019.11.15-20.40.32:831][144]LogLoad: Took 0.104533 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Level2)
-[2019.11.15-20.40.46:382][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.40.46:382][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.40.46:382][767]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
-[2019.11.15-20.40.46:382][767]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.40.46:389][767]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.15-20.40.46:389][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
-[2019.11.15-20.40.46:421][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.15-20.40.46:424][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
-[2019.11.15-20.40.46:488][774]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2019.11.15-20.40.51:701][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.40.52:923][543]LogAIModule: Creating AISystem for world Level2
-[2019.11.15-20.40.52:927][543]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level2.Level2
-[2019.11.15-20.40.52:947][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
-[2019.11.15-20.40.52:948][543]Cmd: MAP LOAD FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.15-20.40.52:948][543]LightingResults: New page: Lighting Build
-[2019.11.15-20.40.52:949][543]LoadErrors: New page: Loading map: Level2.umap
-[2019.11.15-20.40.52:970][543]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2019.11.15-20.40.52:970][543]MapCheck: New page: Map Check
-[2019.11.15-20.40.52:970][543]LightingResults: New page: Lighting Build
-[2019.11.15-20.40.52:996][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
-[2019.11.15-20.40.52:999][543]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.15-20.40.53:026][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
-[2019.11.15-20.40.53:040][543]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.15-20.40.53:041][543]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.12ms to complete.
-[2019.11.15-20.40.53:041][543]LogFileHelpers: Loading map 'Level2' took 0.094
-[2019.11.15-20.41.02:882][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.41.05:121][984]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.11.15-20.41.06:831][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.41.15:992][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.41.24:323][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.15-20.41.39:281][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.41.40:276][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2019.11.15-20.41.40:281][181]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.15-20.41.40:312][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2019.11.15-20.41.40:478][181]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level23F80686A41E5E3B6D4A521B2974D52FF.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
-[2019.11.15-20.41.40:495][181]LogFileHelpers: Saving map 'Level2' took 0.210
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.11.15-20.45.23:767][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
+[2019.11.15-20.45.23:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.15-20.45.23:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
+[2019.11.15-20.45.23:768][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
+[2019.11.15-20.45.23:771][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.15-20.45.23:771][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.15-20.45.23:772][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.15-20.45.23:772][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.15-20.45.23:774][  0]LogHAL: Display: Platform has ~ 32 GB [34301571072 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.15-20.45.23:774][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.15-20.45.23:774][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.15-20.45.23:774][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Scalability.ini]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.15-20.45.23:775][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Config/Windows/Engine.ini]
+[2019.11.15-20.45.23:775][  0]LogInit: Computer: NQSCGL-MSI-11
+[2019.11.15-20.45.23:775][  0]LogInit: User: soneil
+[2019.11.15-20.45.23:775][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.15-20.45.23:775][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.15-20.45.23:776][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.11.15-20.45.23:776][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.15-20.45.23:776][  0]LogMemory: Process Physical Memory: 100.92 MB used, 100.93 MB peak
+[2019.11.15-20.45.23:776][  0]LogMemory: Process Virtual Memory: 100.61 MB used, 100.61 MB peak
+[2019.11.15-20.45.23:776][  0]LogMemory: Physical Memory: 6911.68 MB used,  25800.85 MB free, 32712.53 MB total
+[2019.11.15-20.45.23:776][  0]LogMemory: Virtual Memory: 4668.52 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.11.15-20.45.23:778][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.15-20.45.23:796][  0]LogInit: Using OS detected language (en-US).
+[2019.11.15-20.45.23:796][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.15-20.45.23:796][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.15-20.45.23:943][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.15-20.45.23:972][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.15-20.45.23:972][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.15-20.45.24:173][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.15-20.45.24:173][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.15-20.45.24:236][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.11.15-20.45.24:236][  0]LogD3D11RHI:       8088/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.15-20.45.24:238][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.15-20.45.24:238][  0]LogD3D11RHI:       0/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.15-20.45.24:238][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.15-20.45.24:244][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.15-20.45.24:244][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.15-20.45.24:244][  0]LogWindows: EnumDisplayDevices:
+[2019.11.15-20.45.24:244][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.11.15-20.45.24:245][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.15-20.45.24:245][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.15-20.45.24:245][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.15-20.45.24:245][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.15-20.45.24:245][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.11.15-20.45.24:245][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.11.15-20.45.24:245][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.11.15-20.45.24:245][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.11.15-20.45.24:282][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.15-20.45.24:293][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.15-20.45.24:629][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.15-20.45.24:637][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.15-20.45.24:645][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.15-20.45.24:653][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.15-20.45.24:661][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.15-20.45.24:669][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.15-20.45.24:677][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.15-20.45.24:685][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.15-20.45.24:689][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.15-20.45.24:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.15-20.45.24:719][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.15-20.45.24:735][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.15-20.45.24:735][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.15-20.45.24:748][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.15-20.45.24:748][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.15-20.45.24:754][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.15-20.45.24:760][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.15-20.45.24:766][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.15-20.45.24:774][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.15-20.45.24:796][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.15-20.45.24:796][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.15-20.45.24:796][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.15-20.45.24:805][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.15-20.45.24:859][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Intermediate/Shaders/WorkingDirectory/200736/).
+[2019.11.15-20.45.24:859][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/soneil/AppData/Local/Temp/UnrealShaderWorkingDir/60249A154BB28035E3AC81B7360285F9/'.
+[2019.11.15-20.45.24:862][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.15-20.45.24:862][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.15-20.45.24:862][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.15-20.45.25:396][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.15-20.45.25:440][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/soneil/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.15-20.45.25:440][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/soneil/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.15-20.45.25:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.15-20.45.25:440][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.15-20.45.25:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.15-20.45.25:440][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.15-20.45.25:450][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.15-20.45.25:450][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.15-20.45.25:450][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.15-20.45.25:451][  0]LogDerivedDataCache: Using Local data cache path C:/Users/soneil/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.15-20.45.25:451][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.15-20.45.25:451][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.15-20.45.25:469][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.15-20.45.25:471][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.15-20.45.25:472][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.15-20.45.25:527][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2019.11.15-20.45.25:766][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.15-20.45.25:913][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.15-20.45.25:913][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.15-20.45.25:913][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.15-20.45.25:913][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.15-20.45.25:914][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.15-20.45.25:922][  0]LogNetVersion: Turkey_Noir 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1987931208)
+[2019.11.15-20.45.26:307][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.043371 seconds
+[2019.11.15-20.45.26:313][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.15-20.45.26:313][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.15-20.45.26:313][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.15-20.45.27:178][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.15-20.45.27:180][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.15-20.45.27:225][  0]SourceControl: Source control is disabled
+[2019.11.15-20.45.27:225][  0]SourceControl: Source control is disabled
+[2019.11.15-20.45.27:227][  0]SourceControl: Source control is disabled
+[2019.11.15-20.45.27:227][  0]SourceControl: Source control is disabled
+[2019.11.15-20.45.27:234][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.15-20.45.27:235][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.15-20.45.27:304][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.15-20.45.27:481][  0]LogOcInput: OculusInput pre-init called
+[2019.11.15-20.45.27:487][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.15-20.45.27:487][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.15-20.45.27:548][  0]LogEngine: Initializing Engine...
+[2019.11.15-20.45.27:548][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.15-20.45.27:549][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.15-20.45.27:728][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.15-20.45.27:742][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.15-20.45.27:814][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.15-20.45.27:843][  0]LogInit: FAudioDevice initialized.
+[2019.11.15-20.45.27:843][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.15-20.45.28:024][  0]LogDerivedDataCache: Saved boot cache 0.18s 73MB C:/Users/soneil/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.15-20.45.28:029][  0]LogInit: Texture streaming: Enabled
+[2019.11.15-20.45.28:048][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.15-20.45.28:090][  0]LogInit: Transaction tracking system initialized
+[2019.11.15-20.45.28:119][  0]BlueprintLog: New page: Editor Load
+[2019.11.15-20.45.28:189][  0]LocalizationService: Localization service is disabled
+[2019.11.15-20.45.28:246][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.15-20.45.28:246][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.15-20.45.28:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/' took 0.00s
+[2019.11.15-20.45.28:399][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.15-20.45.28:399][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.15-20.45.28:618][  0]SourceControl: Source control is disabled
+[2019.11.15-20.45.28:618][  0]Cmd: MAP LOAD FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-20.45.28:618][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2019.11.15-20.45.28:618][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-20.45.28:618][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.141ms to complete.
+[2019.11.15-20.45.28:618][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.000
+[2019.11.15-20.45.28:706][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-20.45.28:712][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-20.45.28:718][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-20.45.28:723][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-20.45.28:729][  0]LogCollectionManager: Loaded 0 collections in 0.001703 seconds
+[2019.11.15-20.45.28:734][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Collections/' took 0.00s
+[2019.11.15-20.45.28:734][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/Developers/soneil/Collections/' took 0.00s
+[2019.11.15-20.45.28:734][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/Collections/' took 0.00s
+[2019.11.15-20.45.28:734][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.11.15-20.45.28:741][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2863 classes and 680 folders.
+[2019.11.15-20.45.28:747][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.15-20.45.28:786][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.15-20.45.28:790][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.15-20.45.28:806][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.15-20.45.28:808][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.15-20.45.28:812][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.15-20.45.28:863][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
+[2019.11.15-20.45.28:927][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-20.45.28:939][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.11.15-20.45.28:949][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.15-20.45.28:949][  0]LogLoad: (Engine Initialization) Total time: 6.21 seconds
+[2019.11.15-20.45.28:949][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.15-20.45.28:996][  0]LogAssetRegistry: Asset discovery search completed in 3.4686 seconds
+[2019.11.15-20.45.29:000][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.11.15-20.45.29:000][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2019.11.15-20.45.29:002][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.15-20.45.29:029][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.15-20.45.33:233][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.45.35:624][788]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.15-20.45.35:712][788]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.11.15-20.45.35:712][788]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.11.15-20.45.35:725][788]LogAIModule: Creating AISystem for world Level2
+[2019.11.15-20.45.35:732][788]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level2.Level2
+[2019.11.15-20.45.35:752][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.11.15-20.45.35:753][788]Cmd: MAP LOAD FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-20.45.35:753][788]LightingResults: New page: Lighting Build
+[2019.11.15-20.45.35:755][788]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2019.11.15-20.45.35:756][788]LoadErrors: New page: Loading map: Level2.umap
+[2019.11.15-20.45.35:756][788]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-20.45.35:756][788]MapCheck: New page: Map Check
+[2019.11.15-20.45.35:756][788]LightingResults: New page: Lighting Build
+[2019.11.15-20.45.35:776][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.11.15-20.45.35:779][788]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.15-20.45.35:799][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.11.15-20.45.35:814][788]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-20.45.35:814][788]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.107ms to complete.
+[2019.11.15-20.45.35:814][788]LogFileHelpers: Loading map 'Level2' took 0.061
+[2019.11.15-20.45.37:375][967]LogAIModule: Creating AISystem for world Level1
+[2019.11.15-20.45.37:379][967]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level1.Level1
+[2019.11.15-20.45.37:398][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.11.15-20.45.37:399][967]Cmd: MAP LOAD FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-20.45.37:399][967]LightingResults: New page: Lighting Build
+[2019.11.15-20.45.37:399][967]LoadErrors: New page: Loading map: Level1.umap
+[2019.11.15-20.45.37:400][967]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-20.45.37:400][967]MapCheck: New page: Map Check
+[2019.11.15-20.45.37:400][967]LightingResults: New page: Lighting Build
+[2019.11.15-20.45.37:423][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.11.15-20.45.37:426][967]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.15-20.45.37:445][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.11.15-20.45.37:460][967]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-20.45.37:460][967]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.103ms to complete.
+[2019.11.15-20.45.37:460][967]LogFileHelpers: Loading map 'Level1' took 0.061
+[2019.11.15-20.45.43:160][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.45.43:316][664]LogAIModule: Creating AISystem for world Level2
+[2019.11.15-20.45.43:320][664]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level2.Level2
+[2019.11.15-20.45.43:338][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.11.15-20.45.43:338][664]Cmd: MAP LOAD FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-20.45.43:338][664]LightingResults: New page: Lighting Build
+[2019.11.15-20.45.43:339][664]LoadErrors: New page: Loading map: Level2.umap
+[2019.11.15-20.45.43:339][664]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-20.45.43:339][664]MapCheck: New page: Map Check
+[2019.11.15-20.45.43:339][664]LightingResults: New page: Lighting Build
+[2019.11.15-20.45.43:359][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.11.15-20.45.43:362][664]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.15-20.45.43:381][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.11.15-20.45.43:398][664]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-20.45.43:398][664]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.113ms to complete.
+[2019.11.15-20.45.43:398][664]LogFileHelpers: Loading map 'Level2' took 0.060
+[2019.11.15-20.45.44:772][824]LogAIModule: Creating AISystem for world Level1
+[2019.11.15-20.45.44:775][824]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level1.Level1
+[2019.11.15-20.45.44:794][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.11.15-20.45.44:794][824]Cmd: MAP LOAD FILE="../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.15-20.45.44:794][824]LightingResults: New page: Lighting Build
+[2019.11.15-20.45.44:795][824]LoadErrors: New page: Loading map: Level1.umap
+[2019.11.15-20.45.44:795][824]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-20.45.44:795][824]MapCheck: New page: Map Check
+[2019.11.15-20.45.44:795][824]LightingResults: New page: Lighting Build
+[2019.11.15-20.45.44:816][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.11.15-20.45.44:818][824]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.15-20.45.44:837][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2019.11.15-20.45.44:850][824]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.15-20.45.44:851][824]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.103ms to complete.
+[2019.11.15-20.45.44:851][824]LogFileHelpers: Loading map 'Level1' took 0.057
+[2019.11.15-20.45.49:354][360]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.11.15-20.45.52:380][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.46.01:894][851]LogMaterial: Display: Missing cached shader map for material StartScreen_Background_Mat, compiling. 
+[2019.11.15-20.46.01:956][852]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2019.11.15-20.46.01:956][852]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2019.11.15-20.46.01:956][852]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2019.11.15-20.46.01:956][852]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2019.11.15-20.46.03:720][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.46.04:426][100]LogMaterial: Display: Missing cached shader map for material 2DBackground_Mat, compiling. 
+[2019.11.15-20.46.04:456][101]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2019.11.15-20.46.04:457][101]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2019.11.15-20.46.04:457][101]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2019.11.15-20.46.04:457][101]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2019.11.15-20.46.08:484][525]Cmd: TRANSACTION UNDO
+[2019.11.15-20.46.08:484][525]LogEditorTransaction: Undo Create Actors
+[2019.11.15-20.46.08:799][560]Cmd: TRANSACTION UNDO
+[2019.11.15-20.46.08:799][560]LogEditorTransaction: Undo Create Actors
+[2019.11.15-20.46.09:077][589]Cmd: TRANSACTION UNDO
+[2019.11.15-20.46.09:077][589]LogEditorTransaction: Undo Clicking on Actors
+[2019.11.15-20.46.19:010][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.46.22:862][240]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.11.15-20.46.25:769][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.46.50:282][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.47.22:149][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.47.22:191][268]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-20.47.22:199][268]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.15-20.47.22:199][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-20.47.22:200][268]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:47:22 AM)
+[2019.11.15-20.47.22:201][268]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.15-20.47.22:202][268]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.11.15-20.47.22:207][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004883s)
+[2019.11.15-20.47.22:207][268]LogAIModule: Creating AISystem for world Level1
+[2019.11.15-20.47.22:208][268]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2019.11.15-20.47.22:208][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.006033s)
+[2019.11.15-20.47.22:227][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.11.15-20.47.22:261][268]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.15-20.47.22:273][268]LogInit: FAudioDevice initialized.
+[2019.11.15-20.47.22:279][268]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.15-20.47.22:281][268]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.47.22
+[2019.11.15-20.47.22:281][268]LogWorld: Bringing up level for play took: 0.000828
+[2019.11.15-20.47.22:281][268]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.11.15-20.47.22:287][268]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.11.15-20.47.22:288][268]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 -0.164
+[2019.11.15-20.47.22:289][268]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.15-20.47.30:006][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.15-20.47.30:006][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-20.47.30:006][193]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.11.15-20.47.30:006][193]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-20.47.30:016][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-20.47.30:016][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.15-20.47.30:038][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-20.47.30:040][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.11.15-20.47.30:111][201]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.11.15-20.47.51:901][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.48.31:552][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.48.31:602][535]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-20.48.31:610][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.15-20.48.31:610][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-20.48.31:610][535]PIE: New page: PIE session: Level1 (Nov 15, 2019, 10:48:31 AM)
+[2019.11.15-20.48.31:610][535]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.11.15-20.48.31:614][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004003s)
+[2019.11.15-20.48.31:615][535]LogAIModule: Creating AISystem for world Level1
+[2019.11.15-20.48.31:615][535]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2019.11.15-20.48.31:615][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level1.Level1 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.004881s)
+[2019.11.15-20.48.31:634][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.11.15-20.48.31:667][535]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.15-20.48.31:679][535]LogInit: FAudioDevice initialized.
+[2019.11.15-20.48.31:688][535]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.15-20.48.31:689][535]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.15-15.48.31
+[2019.11.15-20.48.31:689][535]LogWorld: Bringing up level for play took: 0.000864
+[2019.11.15-20.48.31:690][535]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2019.11.15-20.48.31:692][535]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1 -0.756
+[2019.11.15-20.48.31:692][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.15-20.48.38:718][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.15-20.48.38:719][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-20.48.38:719][378]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.11.15-20.48.38:719][378]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-20.48.38:726][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-20.48.38:726][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.15-20.48.38:750][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-20.48.38:752][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.11.15-20.48.38:821][386]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.11.15-20.48.42:951][880]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-20.48.44:053][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.11.15-20.48.44:059][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-20.48.44:085][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.11.15-20.48.44:203][ 10]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level1DFE6D61843BAF3326ADC41B61EEC0485.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level1.umap'
+[2019.11.15-20.48.44:221][ 10]LogFileHelpers: Saving map 'Level1' took 0.156
