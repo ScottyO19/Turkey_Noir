@@ -1162,3 +1162,104 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.15-20.54.47:575][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
 [2019.11.15-20.54.47:695][ 37]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level25F0253854DC6A5CD808DF4B97A93F656.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
 [2019.11.15-20.54.47:713][ 37]LogFileHelpers: Saving map 'Level2' took 0.160
+[2019.11.15-20.55.25:384][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.55.26:672][711]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2019.11.15-20.55.31:858][209]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.15-20.55.33:609][419]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-20.55.34:785][419]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.15-20.57.20:956][ 85]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.15-20.57.20:961][ 85]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.15-20.57.22:419][257]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.15-20.57.23:111][340]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-20.57.23:794][340]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.15-20.57.28:811][933]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.15-20.57.28:815][933]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.15-20.57.49:887][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-20.59.16:573][851]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-20.59.16:788][851]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.11.15-20.59.17:351][907]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterA25A4F7744ED51CF1020D1878AB956C4.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-20.59.34:031][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.01.25:409][699]LogSlate: Took 0.019021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.15-21.01.40:038][399]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-21.01.40:240][399]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2019.11.15-21.01.40:876][461]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacter642B881A451C7F13383B0FB9E556CEC8.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-21.01.44:469][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.04.22:081][163]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-21.04.22:277][163]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2019.11.15-21.04.22:946][225]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacter964D436C4056E96B14C257929FCD2539.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-21.04.48:457][190]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-21.04.48:505][190]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.11.15-21.04.48:663][190]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level2_Auto157E76DD44D0C6A81743CF6B6EB97C932.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level2_Auto1.umap'
+[2019.11.15-21.04.48:665][190]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level2' took 0.191
+[2019.11.15-21.04.48:665][190]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.191
+[2019.11.15-21.04.50:144][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.05.48:656][203]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-21.05.48:845][203]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.11.15-21.05.49:576][277]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterD86C24BC454CC48E8A338E9A889E8F5A.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-21.05.59:188][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.06.13:396][979]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-21.06.13:587][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.11.15-21.06.14:177][ 34]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterE7F047914C10FA4B994874B79656A105.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-21.08.36:065][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.11.22:077][564]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-21.11.22:276][564]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.11.15-21.11.22:854][614]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterD6066FB94C4A5288D5BF85BF62FBBEA3.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-21.11.27:394][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.11.28:709][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.11.28:776][277]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-21.11.28:784][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-21.11.28:784][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-21.11.28:784][277]PIE: New page: PIE session: Level2 (Nov 15, 2019, 11:11:28 AM)
+[2019.11.15-21.11.28:784][277]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-21.11.28:788][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003411s)
+[2019.11.15-21.11.28:788][277]LogAIModule: Creating AISystem for world Level2
+[2019.11.15-21.11.28:788][277]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2019.11.15-21.11.28:788][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level2.Level2 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 (0.004390s)
+[2019.11.15-21.11.28:816][277]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.11.15-21.11.28:850][277]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.15-21.11.28:862][277]LogInit: FAudioDevice initialized.
+[2019.11.15-21.11.28:868][277]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.15-21.11.28:868][277]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.11.15-16.11.28
+[2019.11.15-21.11.28:868][277]LogWorld: Bringing up level for play took: 0.000568
+[2019.11.15-21.11.28:868][277]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2019.11.15-21.11.28:871][277]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2 0.52
+[2019.11.15-21.11.28:871][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-21.12.25:224][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-21.12.25:225][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-21.12.25:225][ 36]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-21.12.25:225][ 36]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-21.12.25:243][ 36]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-21.12.25:243][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-21.12.25:279][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-21.12.25:283][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.11.15-21.12.25:325][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.11.15-21.12.28:425][401]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-21.12.32:965][835]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-21.12.33:148][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.11.15-21.12.33:819][894]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterDEB49E8B45E7A710679DB7B98C66F437.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-21.12.34:879][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.12.35:789][109]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.11.15-21.12.36:835][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-21.12.36:893][238]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-21.12.36:901][238]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-21.12.36:901][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-21.12.36:901][238]PIE: New page: PIE session: Level2 (Nov 15, 2019, 11:12:36 AM)
+[2019.11.15-21.12.36:901][238]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-21.12.36:905][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003438s)
+[2019.11.15-21.12.36:905][238]LogAIModule: Creating AISystem for world Level2
+[2019.11.15-21.12.36:905][238]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2019.11.15-21.12.36:905][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level2.Level2 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 (0.004286s)
+[2019.11.15-21.12.36:936][238]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.11.15-21.12.36:968][238]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.15-21.12.36:979][238]LogInit: FAudioDevice initialized.
+[2019.11.15-21.12.36:986][238]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.15-21.12.36:987][238]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.11.15-16.12.36
+[2019.11.15-21.12.36:988][238]LogWorld: Bringing up level for play took: 0.000619
+[2019.11.15-21.12.36:988][238]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2019.11.15-21.12.36:990][238]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2 0.644
+[2019.11.15-21.12.36:990][238]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-21.12.47:224][465]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-21.12.48:414][604]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.11.15-21.12.48:445][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.11.15-21.12.48:608][604]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level2671FC58948FA1744891539ABEC4092A1.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2019.11.15-21.12.48:625][604]LogFileHelpers: Saving map 'Level2' took 0.210
