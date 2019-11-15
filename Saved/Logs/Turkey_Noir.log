@@ -1936,3 +1936,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.15-21.39.56:686][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
 [2019.11.15-21.39.56:814][629]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level23A23A70F43957860CEAFC8BA20DA5E85.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
 [2019.11.15-21.39.56:832][629]LogFileHelpers: Saving map 'Level2' took 0.172
+[2019.11.15-21.49.56:441][715]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-21.49.56:478][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.11.15-21.49.56:478][715]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level2' took 0.028
+[2019.11.15-21.59.56:868][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.15-21.59.56:869][735]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level2' took 0.026
+[2019.11.15-22.00.51:424][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.00.54:028][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
