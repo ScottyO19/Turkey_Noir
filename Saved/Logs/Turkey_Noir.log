@@ -1943,3 +1943,273 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.15-21.59.56:869][735]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level2' took 0.026
 [2019.11.15-22.00.51:424][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.11.15-22.00.54:028][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.11.15-22.09.57:314][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.11.15-22.09.57:314][246]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level2' took 0.025
+[2019.11.15-22.10.26:434][722]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Turkey121A60764D8E1960FAD438A7C2F64492.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyIdle/Turkey.uasset'
+[2019.11.15-22.10.26:452][722]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Turkey_Colored39EFDC38429919FB47CC239861B0EF44.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyIdle/Turkey_Colored.uasset'
+[2019.11.15-22.10.26:473][722]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Turkey_Colored_SpriteB43DF1514E51E43878A44A9059C59A70.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyIdle/Turkey_Colored_Sprite.uasset'
+[2019.11.15-22.10.26:721][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.15-22.10.26:742][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.11.15-22.10.26:765][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.11.15-22.10.26:795][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.11.15-22.10.26:818][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.11.15-22.10.26:873][722]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacterC06FD2DD4FFC89466D391CBC25E7B1D8.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-22.10.55:489][141]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Desktop/turkey_punch1.png)
+[2019.11.15-22.10.55:493][141]LogTexture: Display: Building textures: turkey_punch1 (BGRA8, 352X429)
+[2019.11.15-22.10.55:503][141]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Desktop/turkey_punch2.png)
+[2019.11.15-22.10.55:506][141]LogTexture: Display: Building textures: turkey_punch2 (BGRA8, 352X429)
+[2019.11.15-22.10.55:516][141]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Desktop/turkey_punch3.png)
+[2019.11.15-22.10.55:519][141]LogTexture: Display: Building textures: turkey_punch3 (BGRA8, 352X429)
+[2019.11.15-22.10.55:528][141]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Desktop/turkey_punch4.png)
+[2019.11.15-22.10.55:531][141]LogTexture: Display: Building textures: turkey_punch4 (BGRA8, 352X429)
+[2019.11.15-22.11.15:152][475]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(685)].
+[2019.11.15-22.11.27:455][945]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch.turkey_punch
+[2019.11.15-22.11.32:047][485]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punchD8F937E3475E9B45B694C99B83A0DBBE.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch.uasset'
+[2019.11.15-22.11.42:168][693]LogSlate: Window 'turkey_punch' being destroyed
+[2019.11.15-22.11.42:172][693]LogSlate: Window 'turkey_punch' being destroyed
+[2019.11.15-22.11.42:179][693]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.11.43:853][891]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch1.turkey_punch1
+[2019.11.15-22.11.54:458][148]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch1F05821E84AE98157132C7DBFE6680303.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch1.uasset'
+[2019.11.15-22.11.56:147][347]LogSlate: Window 'turkey_punch1' being destroyed
+[2019.11.15-22.11.56:151][347]LogSlate: Window 'turkey_punch1' being destroyed
+[2019.11.15-22.11.57:675][526]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch1_Sprite.turkey_punch1_Sprite
+[2019.11.15-22.11.57:753][527]LogRenderer: Reallocating scene render targets to support 1056x632 Format 10 NumSamples 1 (Frame:1).
+[2019.11.15-22.11.59:072][676]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch1_SpriteC890638A490AEEE99C6D4984D250A0D5.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch1_Sprite.uasset'
+[2019.11.15-22.12.00:765][874]LogSlate: Window 'turkey_punch1_Sprite' being destroyed
+[2019.11.15-22.12.00:769][874]LogSlate: Window 'turkey_punch1_Sprite' being destroyed
+[2019.11.15-22.12.00:778][874]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.12.01:704][983]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch2.turkey_punch2
+[2019.11.15-22.12.03:016][131]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch24E32BA9E4C5CBC3DFA5279BA318B75AC.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch2.uasset'
+[2019.11.15-22.12.04:276][280]LogSlate: Window 'turkey_punch2' being destroyed
+[2019.11.15-22.12.04:280][280]LogSlate: Window 'turkey_punch2' being destroyed
+[2019.11.15-22.12.05:257][394]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch2_Sprite.turkey_punch2_Sprite
+[2019.11.15-22.12.06:584][540]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch2_Sprite545B148A42DA5C5364447083FC3EF30C.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch2_Sprite.uasset'
+[2019.11.15-22.12.07:730][673]LogSlate: Window 'turkey_punch2_Sprite' being destroyed
+[2019.11.15-22.12.07:733][673]LogSlate: Window 'turkey_punch2_Sprite' being destroyed
+[2019.11.15-22.12.07:742][673]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.12.08:854][804]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch3.turkey_punch3
+[2019.11.15-22.12.10:132][947]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch3D2CABDA941A5BA1C3ABCF5B3074AC92A.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch3.uasset'
+[2019.11.15-22.12.11:584][118]LogSlate: Window 'turkey_punch3' being destroyed
+[2019.11.15-22.12.11:587][118]LogSlate: Window 'turkey_punch3' being destroyed
+[2019.11.15-22.12.12:714][250]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch3_Sprite.turkey_punch3_Sprite
+[2019.11.15-22.12.14:149][411]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch3_Sprite9A6E60774C8A0B56D6BD4C83BD1EF822.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch3_Sprite.uasset'
+[2019.11.15-22.12.15:732][595]LogSlate: Window 'turkey_punch3_Sprite' being destroyed
+[2019.11.15-22.12.15:735][595]LogSlate: Window 'turkey_punch3_Sprite' being destroyed
+[2019.11.15-22.12.15:744][595]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.12.16:836][724]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch4.turkey_punch4
+[2019.11.15-22.12.18:396][899]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch423DA5A5D42E5A31219613AB5E09D933B.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch4.uasset'
+[2019.11.15-22.12.19:525][ 32]LogSlate: Window 'turkey_punch4' being destroyed
+[2019.11.15-22.12.19:528][ 32]LogSlate: Window 'turkey_punch4' being destroyed
+[2019.11.15-22.12.20:738][174]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch4_Sprite.turkey_punch4_Sprite
+[2019.11.15-22.12.22:480][370]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch4_Sprite92846AAA43F149A85100E59C8C327F7C.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch4_Sprite.uasset'
+[2019.11.15-22.12.24:156][566]LogSlate: Window 'turkey_punch4_Sprite' being destroyed
+[2019.11.15-22.12.24:160][566]LogSlate: Window 'turkey_punch4_Sprite' being destroyed
+[2019.11.15-22.12.24:168][566]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.12.28:518][ 85]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch.turkey_punch
+[2019.11.15-22.13.03:388][235]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_punch14EC73CF4E5A1A83BC3EF6B24B76DCAD.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/TurkeyMelee/turkey_punch.uasset'
+[2019.11.15-22.13.21:847][437]LogSlate: Window 'turkey_punch' being destroyed
+[2019.11.15-22.13.21:851][437]LogSlate: Window 'turkey_punch' being destroyed
+[2019.11.15-22.13.21:859][437]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.13.36:893][231]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2019.11.15-22.14.05:842][ 25]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-22.14.06:021][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.11.15-22.14.06:822][ 88]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacter6BBE544144B5976E411938A4918E4CF0.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-22.14.09:298][351]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-22.14.09:306][351]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.14.09:306][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-22.14.09:306][351]PIE: New page: PIE session: Level2 (Nov 15, 2019, 12:14:09 PM)
+[2019.11.15-22.14.09:306][351]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-22.14.09:310][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003513s)
+[2019.11.15-22.14.09:311][351]LogAIModule: Creating AISystem for world Level2
+[2019.11.15-22.14.09:311][351]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2019.11.15-22.14.09:311][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level2.Level2 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 (0.004379s)
+[2019.11.15-22.14.09:339][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.11.15-22.14.09:372][351]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.15-22.14.09:384][351]LogInit: FAudioDevice initialized.
+[2019.11.15-22.14.09:388][351]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.15-22.14.09:390][351]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.11.15-17.14.09
+[2019.11.15-22.14.09:390][351]LogWorld: Bringing up level for play took: 0.000832
+[2019.11.15-22.14.09:390][351]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2019.11.15-22.14.09:392][351]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2 -0.756
+[2019.11.15-22.14.09:392][351]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.16.49:896][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.16.49:897][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-22.16.49:897][569]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-22.16.49:897][569]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.16.49:911][569]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-22.16.49:911][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.16.49:945][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-22.16.49:948][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.11.15-22.16.49:998][574]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.11.15-22.18.39:100][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.22.37:954][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.15-22.22.38:087][711]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level2_Auto2DF06EFF3413B3B70EA399496588DABE1.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level2_Auto2.umap'
+[2019.11.15-22.22.38:090][711]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level2' took 0.160
+[2019.11.15-22.22.38:090][711]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2019.11.15-22.32.37:966][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.11.15-22.32.37:966][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level2' took 0.026
+[2019.11.15-22.35.20:286][126]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Downloads/turkey_walk7.png)
+[2019.11.15-22.35.20:290][126]LogTexture: Display: Building textures: turkey_walk7 (BGRA8, 352X429)
+[2019.11.15-22.35.20:300][126]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Downloads/turkey_walk6.png)
+[2019.11.15-22.35.20:304][126]LogTexture: Display: Building textures: turkey_walk6 (BGRA8, 352X429)
+[2019.11.15-22.35.20:313][126]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Downloads/turkey_walk4.png)
+[2019.11.15-22.35.20:317][126]LogTexture: Display: Building textures: turkey_walk4 (BGRA8, 352X429)
+[2019.11.15-22.35.20:325][126]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Downloads/turkey_walk2.png)
+[2019.11.15-22.35.20:330][126]LogTexture: Display: Building textures: turkey_walk2 (BGRA8, 352X429)
+[2019.11.15-22.35.20:338][126]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Downloads/turkey_walk5.png)
+[2019.11.15-22.35.20:342][126]LogTexture: Display: Building textures: turkey_walk5 (BGRA8, 352X429)
+[2019.11.15-22.35.20:350][126]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Downloads/turkey_walk3.png)
+[2019.11.15-22.35.20:354][126]LogTexture: Display: Building textures: turkey_walk3 (BGRA8, 352X429)
+[2019.11.15-22.35.20:362][126]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/soneil/Downloads/turkey_walk1.png)
+[2019.11.15-22.35.20:366][126]LogTexture: Display: Building textures: turkey_walk1 (BGRA8, 352X429)
+[2019.11.15-22.35.29:324][190]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk1.turkey_walk1
+[2019.11.15-22.35.30:734][349]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk1096C7DC547E5F3DB2ACE0C80CFB8FFC5.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk1.uasset'
+[2019.11.15-22.35.34:225][718]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk2.turkey_walk2
+[2019.11.15-22.35.35:296][837]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk2469385894CBF990214497FAEEB928B38.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk2.uasset'
+[2019.11.15-22.35.36:369][963]LogSlate: Window 'turkey_walk2' being destroyed
+[2019.11.15-22.35.36:372][963]LogSlate: Window 'turkey_walk2' being destroyed
+[2019.11.15-22.35.36:382][963]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.35.37:531][ 92]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk3.turkey_walk3
+[2019.11.15-22.35.38:808][236]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk3EEEFEA074058F2301C2168AB27D598BA.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk3.uasset'
+[2019.11.15-22.35.40:215][402]LogSlate: Window 'turkey_walk3' being destroyed
+[2019.11.15-22.35.40:219][402]LogSlate: Window 'turkey_walk3' being destroyed
+[2019.11.15-22.35.41:300][529]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk4.turkey_walk4
+[2019.11.15-22.35.42:420][653]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk4052DD3CD4B7B6845A32D5A9B8A2F63C9.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk4.uasset'
+[2019.11.15-22.35.43:939][833]LogSlate: Window 'turkey_walk4' being destroyed
+[2019.11.15-22.35.43:943][833]LogSlate: Window 'turkey_walk4' being destroyed
+[2019.11.15-22.35.45:117][971]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk5.turkey_walk5
+[2019.11.15-22.35.46:326][106]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk5198070F2470B2C35955D70A8EF8E3874.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk5.uasset'
+[2019.11.15-22.35.47:537][249]LogSlate: Window 'turkey_walk5' being destroyed
+[2019.11.15-22.35.47:540][249]LogSlate: Window 'turkey_walk5' being destroyed
+[2019.11.15-22.35.48:763][393]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk6.turkey_walk6
+[2019.11.15-22.35.50:008][533]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk6AB9119AB40796EE75690419189CD028D.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk6.uasset'
+[2019.11.15-22.35.51:207][675]LogSlate: Window 'turkey_walk6' being destroyed
+[2019.11.15-22.35.51:210][675]LogSlate: Window 'turkey_walk6' being destroyed
+[2019.11.15-22.35.52:381][813]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk7.turkey_walk7
+[2019.11.15-22.35.53:829][976]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk7F5FD6FA04F858018A09537A7CC0DA485.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk7.uasset'
+[2019.11.15-22.35.55:091][125]LogSlate: Window 'turkey_walk7' being destroyed
+[2019.11.15-22.35.55:093][125]LogSlate: Window 'turkey_walk7' being destroyed
+[2019.11.15-22.36.05:933][399]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(685)].
+[2019.11.15-22.36.11:517][ 63]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk.turkey_walk
+[2019.11.15-22.36.12:893][216]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk16487486428CDE3D14274488D9A8B9C6.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk.uasset'
+[2019.11.15-22.36.18:024][828]LogSlate: Window 'turkey_walk' being destroyed
+[2019.11.15-22.36.18:027][828]LogSlate: Window 'turkey_walk' being destroyed
+[2019.11.15-22.36.18:036][828]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.36.29:890][237]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk.turkey_walk
+[2019.11.15-22.37.10:041][999]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walkA5115CE040E12CD98563A0B019A6181C.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk.uasset'
+[2019.11.15-22.37.11:134][126]LogSlate: Window 'turkey_walk' being destroyed
+[2019.11.15-22.37.11:137][126]LogSlate: Window 'turkey_walk' being destroyed
+[2019.11.15-22.37.11:145][126]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.37.12:722][311]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk1_Sprite.turkey_walk1_Sprite
+[2019.11.15-22.37.13:864][435]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk1_Sprite78283B32468B0F4EE16D319DC433984C.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk1_Sprite.uasset'
+[2019.11.15-22.37.14:980][564]LogSlate: Window 'turkey_walk1_Sprite' being destroyed
+[2019.11.15-22.37.14:983][564]LogSlate: Window 'turkey_walk1_Sprite' being destroyed
+[2019.11.15-22.37.14:992][564]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.37.16:088][693]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk2_Sprite.turkey_walk2_Sprite
+[2019.11.15-22.37.17:222][816]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk2_Sprite49F2C13B424BCEEBE45CEEB7AF29B6E0.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk2_Sprite.uasset'
+[2019.11.15-22.37.18:287][939]LogSlate: Window 'turkey_walk2_Sprite' being destroyed
+[2019.11.15-22.37.18:290][939]LogSlate: Window 'turkey_walk2_Sprite' being destroyed
+[2019.11.15-22.37.18:298][939]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.37.19:288][ 54]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk3_Sprite.turkey_walk3_Sprite
+[2019.11.15-22.37.20:354][170]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk3_Sprite29C78FC2471AF9DFCA1D6EA571C4C7AA.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk3_Sprite.uasset'
+[2019.11.15-22.37.21:407][292]LogSlate: Window 'turkey_walk3_Sprite' being destroyed
+[2019.11.15-22.37.21:410][292]LogSlate: Window 'turkey_walk3_Sprite' being destroyed
+[2019.11.15-22.37.21:420][292]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.37.22:496][418]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk4_Sprite.turkey_walk4_Sprite
+[2019.11.15-22.37.23:542][529]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk4_Sprite023D1B68451DBCD20F8875A9064156C9.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk4_Sprite.uasset'
+[2019.11.15-22.37.24:587][647]LogSlate: Window 'turkey_walk4_Sprite' being destroyed
+[2019.11.15-22.37.24:590][647]LogSlate: Window 'turkey_walk4_Sprite' being destroyed
+[2019.11.15-22.37.24:599][647]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.37.25:552][759]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk5_Sprite.turkey_walk5_Sprite
+[2019.11.15-22.37.27:017][920]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk5_Sprite996E87CF48237D185BEA24A7C10A70FC.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk5_Sprite.uasset'
+[2019.11.15-22.37.28:231][ 61]LogSlate: Window 'turkey_walk5_Sprite' being destroyed
+[2019.11.15-22.37.28:234][ 61]LogSlate: Window 'turkey_walk5_Sprite' being destroyed
+[2019.11.15-22.37.28:243][ 61]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.37.30:291][303]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk6_Sprite.turkey_walk6_Sprite
+[2019.11.15-22.37.31:475][431]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk6_Sprite3B05D0C24A5B3DDA69DF9F8B7E7CDACB.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk6_Sprite.uasset'
+[2019.11.15-22.37.32:620][562]LogSlate: Window 'turkey_walk6_Sprite' being destroyed
+[2019.11.15-22.37.32:623][562]LogSlate: Window 'turkey_walk6_Sprite' being destroyed
+[2019.11.15-22.37.32:632][562]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.37.34:163][742]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk7_Sprite.turkey_walk7_Sprite
+[2019.11.15-22.37.35:382][873]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/turkey_walk7_SpriteA39FA9EB403096ABDD4F2FB660292FAD.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/Turkey_Walk/turkey_walk7_Sprite.uasset'
+[2019.11.15-22.37.36:574][ 12]LogSlate: Window 'turkey_walk7_Sprite' being destroyed
+[2019.11.15-22.37.36:577][ 12]LogSlate: Window 'turkey_walk7_Sprite' being destroyed
+[2019.11.15-22.37.36:586][ 12]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.37.39:244][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.11.15-22.37.39:278][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.11.15-22.37.39:409][323]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level2A2717EDC45DAA4856F85EFBFB2328921.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2019.11.15-22.37.39:428][323]LogFileHelpers: Saving map 'Level2' took 0.174
+[2019.11.15-22.38.19:571][122]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2019.11.15-22.38.31:774][197]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-22.38.31:936][197]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.15-22.38.32:794][268]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacter8287D2084A888E1783C260A92483AEA6.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-22.38.34:424][418]LogSlate: Window '2DSideScrollerCharacter' being destroyed
+[2019.11.15-22.38.34:428][418]LogSlate: Window '2DSideScrollerCharacter' being destroyed
+[2019.11.15-22.38.34:436][418]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.38.35:401][528]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-22.38.35:409][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.38.35:409][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-22.38.35:409][528]PIE: New page: PIE session: Level2 (Nov 15, 2019, 12:38:35 PM)
+[2019.11.15-22.38.35:410][528]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-22.38.35:413][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003337s)
+[2019.11.15-22.38.35:414][528]LogAIModule: Creating AISystem for world Level2
+[2019.11.15-22.38.35:414][528]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2019.11.15-22.38.35:414][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level2.Level2 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 (0.004211s)
+[2019.11.15-22.38.35:443][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.11.15-22.38.35:476][528]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.15-22.38.35:489][528]LogInit: FAudioDevice initialized.
+[2019.11.15-22.38.35:498][528]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.15-22.38.35:499][528]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.11.15-17.38.35
+[2019.11.15-22.38.35:499][528]LogWorld: Bringing up level for play took: 0.000779
+[2019.11.15-22.38.35:499][528]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2019.11.15-22.38.35:501][528]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2 -0.588
+[2019.11.15-22.38.35:501][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.38.48:130][ 37]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.38.48:130][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-22.38.48:131][ 37]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-22.38.48:131][ 37]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.38.48:142][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-22.38.48:142][ 37]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.38.48:172][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-22.38.48:174][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.11.15-22.38.48:230][ 43]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2019.11.15-22.38.49:540][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.38.49:687][217]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2019.11.15-22.39.10:077][ 89]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.11.15-22.39.10:236][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.11.15-22.39.10:819][132]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/2DSideScrollerCharacter1DDF534D4A455535F570E9A8662C4168.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2019.11.15-22.39.13:010][362]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-22.39.13:018][362]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.39.13:018][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-22.39.13:018][362]PIE: New page: PIE session: Level2 (Nov 15, 2019, 12:39:13 PM)
+[2019.11.15-22.39.13:019][362]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-22.39.13:022][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003544s)
+[2019.11.15-22.39.13:023][362]LogAIModule: Creating AISystem for world Level2
+[2019.11.15-22.39.13:023][362]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2019.11.15-22.39.13:023][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level2.Level2 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 (0.004474s)
+[2019.11.15-22.39.13:050][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.11.15-22.39.13:082][362]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.15-22.39.13:094][362]LogInit: FAudioDevice initialized.
+[2019.11.15-22.39.13:104][362]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.11.15-22.39.13:106][362]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.11.15-17.39.13
+[2019.11.15-22.39.13:106][362]LogWorld: Bringing up level for play took: 0.000775
+[2019.11.15-22.39.13:106][362]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2019.11.15-22.39.13:108][362]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2 1.021
+[2019.11.15-22.39.13:108][362]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.40.00:339][  5]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.40.00:339][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-22.40.00:339][  5]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level2
+[2019.11.15-22.40.00:339][  5]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-22.40.00:357][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-22.40.00:358][  5]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level2.Level2_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level2.Level2:PersistentLevel.Level2'
+[2019.11.15-22.40.00:393][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-22.40.00:396][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2019.11.15-22.40.00:445][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.11.15-22.40.01:383][121]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-22.40.02:696][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.11.15-22.40.02:702][275]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-22.40.02:734][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.15-22.40.02:866][275]LogSavePackage: Moving '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Saved/Level2A0B7BC6945C2ED767463EA9B71EDB17A.tmp' to '../../../../../../Users/soneil/Documents/Unreal Projects/Turkey_Noir/Content/2DSideScrollerBP/Maps/Level2.umap'
+[2019.11.15-22.40.02:884][275]LogFileHelpers: Saving map 'Level2' took 0.178
+[2019.11.15-22.40.33:088][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-22.40.44:921][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
